@@ -1,5 +1,5 @@
 
-Original Sequence: {{args.input}}
+Original Sequence: {{dna_input}}
 Peptide: {{ori_pep}}
 
 Restriction map for original sequence
@@ -16,14 +16,11 @@ Restriction map for original sequence
 
 Original sequence enzymes: {{oname}}
 
-Proposed sequence enzymes: {{itempames}}
+Proposed sequence enzymes: {{item.pames}}
 Enzimes only in original sequence: {{item.o}}
 Enzimes only in proposed sequence: {{item.p}}
 =========================
-        
 
-        
+
+
 {% endfor %}
-
-
-
