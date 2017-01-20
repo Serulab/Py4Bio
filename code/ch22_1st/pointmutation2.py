@@ -12,7 +12,6 @@ from Bio import Seq
 from Bio.Alphabet import IUPAC
 from Bio import Restriction
 from Bio.Data import CodonTable
-from jinja2 import Template
 
 helpstr = '''Given a DNA sequence of a polypeptide, this program
 generates alternative DNA sequences that code for the same
@@ -21,15 +20,16 @@ Author: Sebastian Bassi (sbassi@genesdigitales.com)
 License: GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.txt)'''
 
 usage = helpstr + '\n\nusage: %(prog)s input_sequence [options]'
-
 parser = ArgumentParser(usage=usage)
 parser.add_argument('input', help='Input sequence')
 parser.add_argument('-o', '--output', help='name of the output file',
                     default='output.html')
-parser.add_argument("-m", '--mutations', type=int,
+parser.add_argument('-m', '--mutations', type=int,
                   help='number of allowed mutations',
                   dest='n_mut', default=1)
-
+parser.add_argument('-t', '--table', type=int,
+                  help='translation table',
+                  dest='table_id', default=1)
 
 def backtrans(ori_pep, table_id=1):
     """
@@ -45,7 +45,7 @@ def backtrans(ori_pep, table_id=1):
                 yield letter
                 continue
             for prox in recurs(order, pos+1):
-                yield (letter+prox)
+                yield (letter + prox)
 
     def combine(order):
         ordened = set()
@@ -59,14 +59,14 @@ def backtrans(ori_pep, table_id=1):
         for a2 in "ATCG" :
             for a3 in "ATCG" :
                 codon = a1 + a2 + a3
-                try :
+                try:
                     amino = t.forward_table[codon]
-                except KeyError :
+                except KeyError:
                     assert codon in t.stop_codons
                     continue
-                try :
+                try:
                     bt[amino].append(codon)
-                except KeyError :
+                except KeyError:
                     bt[amino] = [codon]
     return list(combine(ori_pep))
 
@@ -81,56 +81,45 @@ def seqcomp(s1, s2):
             p -= 1
     return p
 
-
-
 args = parser.parse_args()
 dna = Seq.Seq(args.input, IUPAC.unambiguous_dna)
 # Translate DNA sequence.
 ori_pep = dna.translate()
 # Get all backtranslations.
-bakpeps = backtrans(ori_pep)
-
+bakpeps = backtrans(ori_pep, args.table_id)
 # Make a restriction analysis for the orignal sequence.
 anal = Restriction.Analysis(Restriction.CommOnly, dna)
-anal.print_as("map")
-original_map = anal.print_that(print_=False)
+anal.print_as('map')
+print('builtin_seq: {0}\nPeptide: {1}\n'.format(args.input,ori_pep))
+print('ORIGINAL SEQUENCE:')
+original_map = anal.print_that()
 # Store the enzymes that cut in the original sequence.
-enzORI = anal.with_sites().keys()
-enzORIset = set(enzORI)
+enz = list(anal.with_sites().keys())
 # Get a string out of the enzyme list, only for
 # printing purposes.
-oname = str(enzORI)[1:-1]
-# Note: str(enzORI)[1:-1] == ", ".join(str(n) for n in enzORI)
+oname = str(enz)[1:-1]
+enz = set(enz)
 
-
-bakpeps_out = []
-bakpep_tmpdict = {}
-
-
+print('=========================')
 for x in bakpeps:
     if x not in args.input:
         # Make a restriction analysis for each sequence.
-        anal = Restriction.Analysis(Restriction.CommOnly, \
+        anal = Restriction.Analysis(Restriction.CommOnly,
             Seq.Seq(x, IUPAC.unambiguous_dna))
         # Store the enzymes that cut in this sequence.
-        enzTMP = anal.with_sites().keys()
-        enzTMPset = set(enzTMP)
+        enz_tmp = list(anal.with_sites().keys())
+        pames = str(enz_tmp)[1:-1]
+        enz_tmp = set(enz_tmp)
         # Get the number of mutations in backpep sequence.
         y = seqcomp(args.input, x)
-        if enzTMPset!=enzORIset and enzORI!=None and y<=args.n_mut:
-            # Get a string out of the enzyme list, only for
-            # printing purposes.
-            bakpep_tmpdict['pames'] = str(enzTMP)[1:-1]
-            anal.print_as("map")
-            bakpep_tmpdict['printouts'] = anal.print_that(print_=False)
+        if enz_tmp != enz and enz and y <= args.n_mut:
+            print('Original sequence enzymes: {}'.format(oname))
+            anal.print_as('map')
+            print('Proposed sequence enzymes: {}'.format(pames))
+            anal.print_that()
             # o: Only in original sequences, p: proposed seq.
-            bakpep_tmpdict['o'] = str(list(enzORIset.difference(enzTMPset)))[1:-1]
-            bakpep_tmpdict['p'] = str(list(enzTMPset.difference(enzORIset)))[1:-1]
-            bakpeps_out.append(bakpep_tmpdict)
-
-
-
-t = Template(open('mutation.tpl'))
-t.render({'dna_input': args.input, 'ori_pep': ori_pep,
-          'original_map': original_map, 'oname': oname,
-          'bakpeps_out': bakpeps_out})
+            o = str(list(enz.difference(enz_tmp)))[1:-1]
+            p = str(list(enz_tmp.difference(enz)))[1:-1]
+            print('Enzimes only in original sequence: {}\n'.format(o))
+            print('Enzimes only in proposed sequence: {}'.format(p))
+            print('=========================')
