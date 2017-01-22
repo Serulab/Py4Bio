@@ -1,7 +1,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Muscle Web Interface</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
@@ -9,7 +8,7 @@
   <div class="container">
       % if bad_option:
       <h1>Bad Request</h1>
-      Use the options provided in the form: {{bad_option}}
+      Use the options provided in the form. Error in {{bad_option}}
       % elif not bad_option:
       {{!result_output}}
       % end

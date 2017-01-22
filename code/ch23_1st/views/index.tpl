@@ -14,7 +14,8 @@
     <option value="4">4</option><option value="8">8</option>
     <option value="10">10</option><option value="12">12</option>
     <option value="14">14</option><option value="16">16</option>
-   </select><label for="format">Output Format:</label>
+   </select>
+   <label for="format"> Output Format:</label>
    <select name="output" id="format">
     <option value="fasta" selected="selected">FASTA</option>
     <option value="clw">ClustalW2</option>
