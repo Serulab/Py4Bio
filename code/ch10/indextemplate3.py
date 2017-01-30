@@ -6,6 +6,6 @@ def shows_greeting(username):
         msg = 'Hello {0}!'.format(username)
     else:
         msg = "Your username must can't start with a number"
-    return template('main_template3', **{'msg':msg})
+    return template('index3', **{'msg':msg})
 
 run(host='localhost', port=8000)
