@@ -4,54 +4,39 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body style="background-color:#e7f5f5;">
-  <div class="container"><h2>Protein Charge Calculator</h2>
- <form action='protcharge' method='post'>
-
-
- Enter the amino-acid sequence:
-<textarea name="seq" rows="5" cols="40"></textarea><p>
-Do you want to see the proportion of charged amino-acid?
-<p><input type="radio" name="prop" value="y">Yes<br>
-<input type="radio" name="prop" value="n"> No<br><p>
-Job title (optional):
-<input type="text" size="30" name="title"
-value=""><br><p>
-<input type='submit' value='Send'>
+<div class="container"><h2>Protein Charge Calculator</h2>
+<form action='/protcharge' method='post'>
+ <div class="row">
+  <div class="col-sm-8">
+   <div class="form-group">
+   <label for="aaseq">Enter the amino-acid sequence:</label>
+   <textarea name="aaseq" rows="5" cols="40"></textarea>
+   </div>
+  </div>
+ </div>
+ <div class="row">
+  <div class="col-sm-8">
+   <div class="form-group">
+   <label for="prop">Do you want to see the proportion of
+       charged amino-acid?</label>
+    <div class="radio">
+      <label>
+          <input type="radio" name="prop" value="y">Yes
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+          <input type="radio" name="prop" value="n">No
+      </label>
+    </div>
+   <label for="title">Job title (optional):</label>
+    <input type="text" size="30" name="title" value=""><br>
+    <button type="submit" class="btn btn-primary">Send
+    </button>
+   </div>
+  </div>
+ </div>
 </form>
 </div>
 </body>
 </html>
-
-
-  <div class="row"><div class="col-sm-8"><div class="form-group">
-  <label for="iterations">Maximum iterations:</label>
-   <select name="iterat" id="iterations">
-    <option value="1" selected="selected">1</option>
-    <option value="4">4</option><option value="8">8</option>
-    <option value="10">10</option><option value="12">12</option>
-    <option value="14">14</option><option value="16">16</option>
-   </select>
-   <label for="format"> Output Format:</label>
-   <select name="output" id="format">
-    <option value="fasta" selected="selected">FASTA</option>
-    <option value="clw">ClustalW2</option>
-    <option value="clwstrict">ClustalW2 (Strict)</option>
-    <option value="html">HTML</option>
-    <option value="msf">MSF</option>
-   </select>
-    <label for="order">Output Order:</label>
-    <select name="outorder" id="order">
-     <option value="group" selected="selected">aligned</option>
-     <option value="stable">input</option>
-    </select></div></div></div>
-    <div class="row"><div class="col-sm-6"><div class="form-group">
-     <label for="sq">Enter a set of sequences in FASTA format:</label>
-     <textarea name="seq" rows="5" cols="90" id="sq"></textarea>
-    </div></div></div><div class="row"><div class="form-group">
-    <div class="col-sm-3">
-    <label for="upfile">Or upload a file:</label>
-     <input type="file" name="upfile" id="upfile" />
-     </div><div class="col-sm-3">
-     <button type="submit" class="btn btn-primary">
-     Send to Muscle server</button></div></div></div>
- </form></div></body></html>
