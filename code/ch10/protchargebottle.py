@@ -1,9 +1,16 @@
-from bottle import route, run, template
+from bottle import route, run, template, static_file
 
+
+#from bottle import route, post, run, static_file, request, view
 
 @route('/')
-def index(name):
-    return ('protchargeform', **{'name':name})
+def index():
+    return static_file('protchargeformbottle.html', root='views/')
+
+@route('/css/<filename>')
+def css_static(filename):
+    return static_file(filename, root='css/')
+
 
 @route('/aa/<name>')
 def shows_greeting(name):
@@ -12,7 +19,7 @@ def shows_greeting(name):
 run(host='localhost', port=8000)
 
 
-
+"""
 
 def chargeandprop(aa_seq):
     protseq = aa_seq.upper()
@@ -43,3 +50,4 @@ def chargeandprop(aa_seq):
 27     print("Proportion of charged AA: {0:.2f}<br/>"
 28           .format(propvalue))
 29 print("</body></html>")
+"""

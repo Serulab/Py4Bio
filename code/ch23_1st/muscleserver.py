@@ -5,9 +5,6 @@ import subprocess
 from tempfile import mkstemp
 
 from bottle import route, post, run, static_file, request, view
-from bottle import debug
-
-debug(True)
 
 @route('/')
 def index():
