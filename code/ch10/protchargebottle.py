@@ -3,6 +3,20 @@ from bottle import route, run, template, static_file
 
 #from bottle import route, post, run, static_file, request, view
 
+def chargeandprop(aa_seq):
+    protseq = aa_seq.upper()
+    charge = -0.002
+    cp = 0
+    aa_charge = {'C':-.045,'D':-.999,'E':-.998,'H':.091,
+              'K':1,'R':1,'Y':-.001}
+    for aa in protseq:
+        charge += aa_charge.get(aa, 0)
+        if aa in aa_charge:
+            cp += 1
+    prop = float(cp)/len(aa_seq)*100
+    return (charge, prop)
+
+
 @route('/')
 def index():
     return static_file('protchargeformbottle.html', root='views/')
@@ -11,28 +25,23 @@ def index():
 def css_static(filename):
     return static_file(filename, root='css/')
 
+@route('/protcharge')
+def protcharge():
+    seq = request.forms.get('aaseq',
+                            'QWERTYYTREWQRTYEYTRQWE')
+    prop = request.forms.get('prop','n')
+    title = request.forms.get('title', 'No title')
+    charge, propvalue = chargeandprop(seq)
+    
 
-@route('/aa/<name>')
-def shows_greeting(name):
-    return template('index', **{'name':name})
+    return template('result', **{'name':name})
 
 run(host='localhost', port=8000)
 
 
 """
 
-def chargeandprop(aa_seq):
-    protseq = aa_seq.upper()
-    charge = -0.002
-    cp = 0
-    aa_charge = {"C":-.045,"D":-.999,"E":-.998,"H":.091,
-               "K":1,"R":1,"Y":-.001}
-     for aa in protseq:
-         charge += aa_charge.get(aa,0)
-         if aa in aa_charge:
-             cp += 1
-     prop = float(cp)/len(aa_seq)*100
-     return (charge, prop)
+
 
  form = cgi.FieldStorage()
  uname = form.getvalue('username','NN')

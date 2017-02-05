@@ -17,7 +17,6 @@ def chargeandprop(aa_seq):
 cgitb.enable()
 print('Content-Type: text/html\n')
 form = cgi.FieldStorage()
-uname = form.getvalue('username','NN')
 seq = form.getvalue('seq', 'QWERTYYTREWQRTYEYTRQWE')
 prop = form.getvalue('prop', 'n')
 jobtitle = form.getvalue('title','No title')
