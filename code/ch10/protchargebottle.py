@@ -26,15 +26,16 @@ def css_static(filename):
     return static_file(filename, root='css/')
 
 @route('/protcharge')
+@view('result')
 def protcharge():
     seq = request.forms.get('aaseq',
                             'QWERTYYTREWQRTYEYTRQWE')
     prop = request.forms.get('prop','n')
     title = request.forms.get('title', 'No title')
     charge, propvalue = chargeandprop(seq)
-    
 
-    return template('result', **{'name':name})
+
+    return {'name':name})
 
 run(host='localhost', port=8000)
 
