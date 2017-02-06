@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head><meta charset="utf-8">
+  <title>Protein Charge Calculator: Result</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+ </head>
+ <body style="background-color:#e7f5f5;">
+ <div class="container"><h2>Result</h2>
+ <p>Job title: {{title}}</p>
+ <p>Your sequence is: {{seq}}</p>
+ <p>Net charge: {{charge}}</p>
+ % if prop == 'y':
+ <p>Proportion of charged AA: {{propvalue}}<p>
+ % end
+ </div>
+ </body>
+</html>
