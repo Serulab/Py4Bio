@@ -1,5 +1,4 @@
-from bottle import route, run, template, static_file, view,\
-                   post, request
+from bottle import route, run, static_file, view, post, request
 
 def chargeandprop(aa_seq):
     """ Calculates protein net charge and charged AA proportion
