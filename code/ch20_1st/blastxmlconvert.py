@@ -3,7 +3,6 @@
 """
 From BLAST XML to HTML. By Sebastian Bassi.
 Tested with BLASTN xml files from 2.2.16 to 2.2.18.
-BLASTN xml files < 2.2.16 are not properly formatted.
 Converts a single BLAST XML to one HTML file.
 
 Created on Tue Jan 17 20:30:10 2017
@@ -16,8 +15,8 @@ import xml.etree.cElementTree as cET
 
 from jinja2 import Template
 
-helpstr = '''XML2HTML converts a BLAST XML file into one, 
-or multiple HTML files. 
+helpstr = '''XML2HTML converts a BLAST XML file into one,
+or multiple HTML files.
 
 Author: Sebastian Bassi (sbassi@genesdigitales.com)
 Thanks to Yoan Jacquemin for help in testing.
@@ -28,13 +27,13 @@ usage = helpstr + '\n\nusage: %(prog)s input_file [options]'
 parser = ArgumentParser(usage=usage)
 parser.add_argument('input', help='Input file name (in XML format)',
                     nargs='+')
-parser.add_argument('-o', '--output', help='name of the output file', 
+parser.add_argument('-o', '--output', help='name of the output file',
                     default='output.html')
-parser.add_argument("-d", '--descriptions', type=int, 
+parser.add_argument("-d", '--descriptions', type=int,
                   help="descriptions keep in output file",
                   dest='desc')
 parser.add_argument("-b", '--alignments', default=None,
-                    type=int, 
+                    type=int,
                     help="alignments keep in output file")
 
 def get_data(f_in):
@@ -47,9 +46,9 @@ def get_data(f_in):
     data['version_date'] = root.find('BlastOutput_version').text
     data['application'] = root.find('BlastOutput_program').text
     data['reference'] = root.find('BlastOutput_reference').text[12:]
- 
-    
-    
+
+
+
     return data
 
 def htmlhead(f_in,outf):
