@@ -1,10 +1,5 @@
-
-
-#!/usr/bin/env python
-
 import os
 #import os.path
-import subprocess
 from tempfile import mkstemp
 
 from bottle import route, post, run, static_file, request, view
@@ -15,10 +10,10 @@ from Bio.Blast import NCBIXML, NCBIStandalone
 from tempfile import NamedTemporaryFile
 
 
-
-BLAST_EXE = '/var/www/blast-2.2.18/bin/blastall'
+BLAST_EXE = '/home/sbassi/opt/ncbi-blast-2.6.0+/bin/blastn'
+DB_BASE_PATH = '/home/sbassi/opt/ncbi-blast-2.6.0+/db/'
 MASK = 'N'
-DB_BASE_PATH = '/var/www/blast/db/''
+
 
 def create_rel(XMLin):
     """
@@ -70,11 +65,6 @@ def index():
 @view('result')
 def result():
     seqs = request.forms.get('seqs')
-    # Check if the textarea is empty
-    if not seqs:
-        # Since the textarea is empty, check the uploaded file
-        seqs = request.forms.get('seqdatafile')
-
     blast_db = request.forms.get('blastdb','customdb')
     if blast_db == 'customdb':
         db = os.path.join(DB_BASE_PATH, 'custom')
@@ -83,7 +73,7 @@ def result():
 
 
     # Create a temporary file
-    fasta_in_fh = NamedTemporaryFile()
+    fasta_in_fh = NamedTemporaryFile(mode='w')
     # Write the user entered sequence into this temporary file
     fasta_in_fh.write(seqs)
     # Flush the data to disk without closing and deleting the file,
@@ -92,8 +82,29 @@ def result():
     # Get the name of the temporary file
     file_in = fasta_in_fh.name
     # Run the BLAST query
-    rh, eh = NCBIStandalone.blastall(BLAST_EXE, 'blastn', db,
-                                     file_in, expectation='1e-6')
+    blastn_cline = NcbiblastnCommandline(cmd=BLAST_EXE,
+                                         query=file_in,
+                                         db=db,
+                                         evalue=.00005,
+                                         )
+                                         #out="opuntia.xml")
+    rh, eh = blastn_cline()
+
+    '''
+     blastn_cli = blastCL(cmd=self.blastn_path,
+                             query=q_seq_fn,
+                             subject=s_seq_fn,
+                             task="blastn-short",
+                             evalue=.00005,
+                             outfmt=5, #m 7
+                             out=blastout_fn)
+    '''
+
+
+    ##rh, eh = NCBIStandalone.blastall(BLAST_EXE, 'blastn', db,
+    ##                                 file_in, expectation='1e-6')
+
+
     # Create contamination position and store it in a dictionary
     bat1 = create_rel(rh)
     # Reset the pointer position to the begining of the file
@@ -114,8 +125,8 @@ def result():
     fasta_out_fh.close()
     return {'finalout':finalout}
 
-print 'Content-type: text/html\n'
-print """<html><head><title>Vector Filter Output</title></head>
-<body>Filtered sequences:<br/><p></p><pre>%s</pre>
-</body></html>"""%(finalout)
-This code is part of the book "Python for Bioinformatics", by Sebastian Bassi (sbassi@genesdigitales.com). Return to home page.
+@route('/css/<filename>')
+def css_static(filename):
+    return static_file(filename, root='css/')
+
+run(host='localhost', port=8080)
