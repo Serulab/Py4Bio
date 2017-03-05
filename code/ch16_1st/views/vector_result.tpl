@@ -7,9 +7,7 @@
  <body style="background-color:#e7f5f5;">
  <div class="container">
      <h2>Vector Filter Result</h2>
-     <pre>
-         {{finalout}}
-     </pre>
+     <pre>{{finalout}}</pre>
  </div>
  </body>
 </html>

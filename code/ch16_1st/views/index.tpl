@@ -11,7 +11,7 @@
    <div class="col-sm-8">
    <div class="form-group">
     <label for="seqs">Paste sequence in FASTA format:</label>
-    <p><textarea name="seqs" rows="30" cols="60"></textarea></p>
+    <p><textarea name="seqs" rows="15" cols="80"></textarea></p>
    </div>
    </div>
    </div>
