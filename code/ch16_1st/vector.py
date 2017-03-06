@@ -58,7 +58,7 @@ def maskseqs(ffh, bat1):
 
 @route('/')
 def index():
-    return static_file('index.tpl', root='views/')
+    return static_file('index.html', root='views/')
 
 @post('/vector_result')
 @view('vector_result')
