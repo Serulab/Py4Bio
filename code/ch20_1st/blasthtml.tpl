@@ -2,8 +2,11 @@
 <TITLE>BLAST Search Results</TITLE>
 <BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#660099" ALINK="#660099">
 <!-- Generated from {{ input_file }} by XML2HTML (Sebastian Bassi) -->
-<PRE><b>blastp BLASTP 2.6.0+</b>
-<b><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=9254694&dopt=Citation">Reference</a>:</b>ltschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs", Nucleic Acids Res. 25:3389-3402.
+<PRE><b>{{application}} {{version_date}}</b>
+<b><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=PubMed&cmd=Retrieve&list_uids=9254694&dopt=Citation">Reference</a>:</b>
+{{reference}}
+
+
 <b>Query=</b> gi|129295|sp|P01013|OVAX_CHICK GENE X PROTEIN (OVALBUMIN-RELATED)
          (228 letters)
 <b>Database:</b> GP/9606.9558/RefSeq_protein
@@ -28,7 +31,7 @@ Sequences producing significant alignments:                  (bits) Value
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=767940201&dopt=GenBank" >ref|XP_011512980.1|</a> PREDICTED: serpin B9 isoform X2 [Homo sapiens] >gi|1034650527|ref|XP_016866431.1| PREDICTED: serpin B9 isoform X2 [Homo sapiens] >gi|1034650529|ref|XP_016866432.1| PREDICTED: serpin B9 isoform X2 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=767940201&dopt=GenBank" >ref|XP_011512980.1|</a> PREDICTED: serpin B9 isoform X2 [Homo sapiens] >gi|1034650527|ref|XP_016866431.1| PREDICTED: serpin B9 isoform X2 [Homo sapiens] >gi|1034650529|ref|XP_016866432.1| PREDICTED: serpin B9 isoform X2 [Homo sapiens]
  Length = 325
 Score = 190.66 bits (483), Expect = 3.89424e-59
 Identities = 151/236 (64%)
@@ -36,7 +39,7 @@ Strand = Minus/Minus
 
 
 Query: 1   QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNN 60
-           +I++LL  SS D +T LVLVNAIYFKG W   F+   TREMPF + ++E +PVQMM    
+           +I++LL  SS D +T LVLVNAIYFKG W   F+   TREMPF + ++E +PVQMM
 Sbjct: 92  KIEELLPGSSIDAETRLVLVNAIYFKGKWNEPFDETYTREMPFKINQEEQRPVQMMYQEA 151
 
 Query: 61  SFNVATLPAEKMKILELPFASGD------LPDEVSDLERIEKTINFKKLKLTEWTNPNTM 114
@@ -53,7 +56,7 @@ Sbjct: 270 EVNEEGTEAAAASSCFVVAECCMESGPRFCADHPFLFFIRHNRANSILFCGRFSSP 327
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=767998836&dopt=GenBank" >ref|XP_011524330.1|</a> PREDICTED: serpin B10 isoform X3 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=767998836&dopt=GenBank" >ref|XP_011524330.1|</a> PREDICTED: serpin B10 isoform X3 [Homo sapiens]
  Length = 268
 Score = 189.119 bits (479), Expect = 4.22481e-59
 Identities = 151/235 (64%)
@@ -61,7 +64,7 @@ Strand = Minus/Minus
 
 
 Query: 1   QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNN 60
-           +I++LL   S D  T ++LVNA+YFKG+W+  F  ++T E PF + +  SKPVQMM M  
+           +I++LL   S D  T ++LVNA+YFKG+W+  F  ++T E PF + +  SKPVQMM M
 Sbjct: 36  KIQNLLPDDSVDSTTRMILVNALYFKGIWEHQFLVQNTTEKPFRINETTSKPVQMMFMKK 95
 
 Query: 61  SFNVATLPAEKMKILELPFASGDL------PDEVSDLERIEKTINFKKLKLTEWTNPNTM 114
@@ -78,7 +81,7 @@ Sbjct: 214 EINEQGTEAAAGSGSEIDIRIRVPSIEFNANHPFLFFIRHNKTNTILFYGRLCSP 270
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=4758906&dopt=GenBank" >ref|NP_004146.1|</a> serpin B9 [Homo sapiens] >gi|530382158|ref|XP_005249241.1| PREDICTED: serpin B9 isoform X1 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=4758906&dopt=GenBank" >ref|NP_004146.1|</a> serpin B9 [Homo sapiens] >gi|530382158|ref|XP_005249241.1| PREDICTED: serpin B9 isoform X1 [Homo sapiens]
  Length = 376
 Score = 191.045 bits (484), Expect = 1.20461e-58
 Identities = 151/236 (64%)
@@ -86,7 +89,7 @@ Strand = Minus/Minus
 
 
 Query: 1   QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNN 60
-           +I++LL  SS D +T LVLVNAIYFKG W   F+   TREMPF + ++E +PVQMM    
+           +I++LL  SS D +T LVLVNAIYFKG W   F+   TREMPF + ++E +PVQMM
 Sbjct: 143 KIEELLPGSSIDAETRLVLVNAIYFKGKWNEPFDETYTREMPFKINQEEQRPVQMMYQEA 202
 
 Query: 61  SFNVATLPAEKMKILELPFASGD------LPDEVSDLERIEKTINFKKLKLTEWTNPNTM 114
@@ -103,7 +106,7 @@ Sbjct: 321 EVNEEGTEAAAASSCFVVAECCMESGPRFCADHPFLFFIRHNRANSILFCGRFSSP 378
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=4826902&dopt=GenBank" >ref|NP_005015.1|</a> serpin B10 [Homo sapiens] >gi|767998834|ref|XP_011524329.1| PREDICTED: serpin B10 isoform X1 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=4826902&dopt=GenBank" >ref|NP_005015.1|</a> serpin B10 [Homo sapiens] >gi|767998834|ref|XP_011524329.1| PREDICTED: serpin B10 isoform X1 [Homo sapiens]
  Length = 397
 Score = 189.504 bits (480), Expect = 7.36295e-58
 Identities = 151/235 (64%)
@@ -111,7 +114,7 @@ Strand = Minus/Minus
 
 
 Query: 1   QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNN 60
-           +I++LL   S D  T ++LVNA+YFKG+W+  F  ++T E PF + +  SKPVQMM M  
+           +I++LL   S D  T ++LVNA+YFKG+W+  F  ++T E PF + +  SKPVQMM M
 Sbjct: 165 KIQNLLPDDSVDSTTRMILVNALYFKGIWEHQFLVQNTTEKPFRINETTSKPVQMMFMKK 224
 
 Query: 61  SFNVATLPAEKMKILELPFASGDL------PDEVSDLERIEKTINFKKLKLTEWTNPNTM 114
@@ -128,7 +131,7 @@ Sbjct: 343 EINEQGTEAAAGSGSEIDIRIRVPSIEFNANHPFLFFIRHNKTNTILFYGRLCSP 399
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=530414218&dopt=GenBank" >ref|XP_005266764.1|</a> PREDICTED: serpin B13 isoform X2 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=530414218&dopt=GenBank" >ref|XP_005266764.1|</a> PREDICTED: serpin B13 isoform X2 [Homo sapiens]
  Length = 255
 Score = 182.956 bits (463), Expect = 5.6638e-57
 Identities = 145/235 (62%)
@@ -153,7 +156,7 @@ Sbjct: 201 AVTEEGTEAAAATGIGFTVTSAPGHENVHCNHPFLFFIRHNESNSILFFGRFSSP 257
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=767998839&dopt=GenBank" >ref|XP_011524331.1|</a> PREDICTED: serpin B13 isoform X1 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=767998839&dopt=GenBank" >ref|XP_011524331.1|</a> PREDICTED: serpin B13 isoform X1 [Homo sapiens]
  Length = 390
 Score = 184.111 bits (466), Expect = 8.06679e-56
 Identities = 145/235 (62%)
@@ -178,7 +181,7 @@ Sbjct: 336 AVTEEGTEAAAATGIGFTVTSAPGHENVHCNHPFLFFIRHNESNSILFFGRFSSP 392
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=8393956&dopt=GenBank" >ref|NP_036529.1|</a> serpin B13 isoform 2 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=8393956&dopt=GenBank" >ref|NP_036529.1|</a> serpin B13 isoform 2 [Homo sapiens]
  Length = 391
 Score = 184.111 bits (466), Expect = 8.3526e-56
 Identities = 145/235 (62%)
@@ -203,7 +206,7 @@ Sbjct: 337 AVTEEGTEAAAATGIGFTVTSAPGHENVHCNHPFLFFIRHNESNSILFFGRFSSP 393
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=4505595&dopt=GenBank" >ref|NP_002566.1|</a> plasminogen activator inhibitor 2 [Homo sapiens] >gi|219689110|ref|NP_001137290.1| plasminogen activator inhibitor 2 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=4505595&dopt=GenBank" >ref|NP_002566.1|</a> plasminogen activator inhibitor 2 [Homo sapiens] >gi|219689110|ref|NP_001137290.1| plasminogen activator inhibitor 2 [Homo sapiens]
  Length = 415
 Score = 184.882 bits (468), Expect = 8.71113e-56
 Identities = 141/239 (59%)
@@ -211,7 +214,7 @@ Strand = Minus/Minus
 
 
 Query: 1   QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNN 60
-           +I +LL   S D DT +VLVNA+YFKG WKT F  +     PF V   +  PVQMM +  
+           +I +LL   S D DT +VLVNA+YFKG WKT F  +     PF V   +  PVQMM +
 Sbjct: 180 KIPNLLPEGSVDGDTRMVLVNAVYFKGKWKTPFEKKLNGLYPFRVNSAQRTPVQMMYLRE 239
 
 Query: 61  SFNVATLPAEKMKILELPFASGD------LPDEVSD----LERIEKTINFKKLKLTEWTN 110
@@ -228,7 +231,7 @@ Sbjct: 357 QAMVDVNEEGTEAAAGTGGVMTGRTGHGGPQFVADHPFLFLIMHKITNCILFFGRFSSP 418
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=807201021&dopt=GenBank" >ref|NP_001294852.1|</a> serpin B13 isoform 1 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=807201021&dopt=GenBank" >ref|NP_001294852.1|</a> serpin B13 isoform 1 [Homo sapiens]
  Length = 400
 Score = 184.111 bits (466), Expect = 1.01368e-55
 Identities = 145/235 (62%)
@@ -253,7 +256,7 @@ Sbjct: 346 AVTEEGTEAAAATGIGFTVTSAPGHENVHCNHPFLFFIRHNESNSILFFGRFSSP 402
 
 </PRE>
 <PRE>
-><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=156071456&dopt=GenBank" >ref|NP_536723.2|</a> serpin B11 isoform a [Homo sapiens] >gi|767999462|ref|XP_011524553.1| PREDICTED: serpin B11 isoform X1 [Homo sapiens] 
+><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve&db=Nucleotide&list_uids=156071456&dopt=GenBank" >ref|NP_536723.2|</a> serpin B11 isoform a [Homo sapiens] >gi|767999462|ref|XP_011524553.1| PREDICTED: serpin B11 isoform X1 [Homo sapiens]
  Length = 392
 Score = 179.104 bits (453), Expect = 8.17666e-54
 Identities = 151/235 (64%)
@@ -261,7 +264,7 @@ Strand = Minus/Minus
 
 
 Query: 1   QIKDLLVSSSTDLDTTLVLVNAIYFKGMWKTAFNAEDTREMPFHVTKQESKPVQMMCMNN 60
-           ++ +L   S+ D  + +VLVNAIYFKG W+  F   +T + PF +++ ++  V+MM    
+           ++ +L   S+ D  + +VLVNAIYFKG W+  F   +T + PF +++ ++  V+MM
 Sbjct: 160 KVANLFGKSTIDPSSVMVLVNAIYFKGQWQNKFQVRETVKSPFQLSEGKNVTVEMMYQIG 219
 
 Query: 61  SFNVATLPAEKMKILELPFASGDL------PDEVSDLERIEKTINFKKLKLTEWTNPNTM 114
@@ -277,18 +280,22 @@ Query: 174 ELSEDGIEMAGSTGVIEDIKHSPESEQFRADHPFLFLIKHNPTNTIVYFGRYWSP 228
 Sbjct: 338 DVSEEGTEAAAATGDSIAVKSLPMRAQFKANHPFLFFIRHTHTNTILFCGKLASP 394
 
 </PRE>
+
+
+
+
 <PRE>
-  Database: GP/9606.9558/RefSeq_protein
-  Number of letters in database: 80269
-  Number of sequences in database:  56216264
+Database: {{db_version}}
+Number of letters in database: {{num_letter_db}}
+Number of sequences in database:  {{num_seqs_db}}
 
 Lambda     K      H
-    0.27    0.041     0.14
+{{lambd}}    {{kappa}}     {{entrop}}
 
-Matrix: blastp matrix:None None
-Gap Penalties: Existence: 11, Extension: 1
-Number of Sequences: 56216264
-Length of database: 80269
+Matrix: {{b_prg}} matrix:{{p_sc_match}} {{p_sc_mismatch}}
+Gap Penalties: Existence: {{p_gap_open}}, Extension: {{p_gap_extend}}
+Number of Sequences: {{num_seqs_db}}
+Length of database: {{num_letter_db}}
 </PRE>
 </BODY>
 </HTML>
