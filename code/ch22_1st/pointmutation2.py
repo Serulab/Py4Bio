@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan 18 19:17:25 2017
-
-@author: sbassi
-"""
-
 from argparse import ArgumentParser
 
 from Bio import Seq
@@ -16,9 +8,7 @@ from Bio.Data import CodonTable
 helpstr = '''Given a DNA sequence of a polypeptide, this program
 generates alternative DNA sequences that code for the same
 polypeptide but that can be sorted out by DNA restriction.
-Author: Sebastian Bassi (sbassi@genesdigitales.com)
-License: GPL 3.0 (http://www.gnu.org/licenses/gpl-3.0.txt)'''
-
+Author: Sebastian Bassi (sbassi@genesdigitales.com)'''
 usage = helpstr + '\n\nusage: %(prog)s input_sequence [options]'
 parser = ArgumentParser(usage=usage)
 parser.add_argument('input', help='Input sequence')
@@ -38,7 +28,6 @@ def backtrans(ori_pep, table_id=1):
     translation table. Code number is the same as posted in:
     http://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi
     """
-
     def recurs(order, pos):
         for letter in bt[order[pos]]:
             if pos == len(order) - 1:
@@ -88,38 +77,37 @@ ori_pep = dna.translate()
 # Get all backtranslations.
 bakpeps = backtrans(ori_pep, args.table_id)
 # Make a restriction analysis for the orignal sequence.
-anal = Restriction.Analysis(Restriction.CommOnly, dna)
-anal.print_as('map')
-print('builtin_seq: {0}\nPeptide: {1}\n'.format(args.input,ori_pep))
+analysis = Restriction.Analysis(Restriction.CommOnly, dna)
+analysis.print_as('map')
+print('builtin_seq: {0}\nPeptide: {1}\n'.format(args.input, ori_pep))
 print('ORIGINAL SEQUENCE:')
-original_map = anal.print_that()
+analysis.print_that()
 # Store the enzymes that cut in the original sequence.
-enz = list(anal.with_sites().keys())
+enz = list(analysis.with_sites().keys())
 # Get a string out of the enzyme list, only for
 # printing purposes.
 oname = str(enz)[1:-1]
 enz = set(enz)
-
 print('=========================')
 for x in bakpeps:
     if x not in args.input:
         # Make a restriction analysis for each sequence.
-        anal = Restriction.Analysis(Restriction.CommOnly,
-            Seq.Seq(x, IUPAC.unambiguous_dna))
+        analysis = Restriction.Analysis(Restriction.CommOnly,
+                Seq.Seq(x, IUPAC.unambiguous_dna))
         # Store the enzymes that cut in this sequence.
-        enz_tmp = list(anal.with_sites().keys())
+        enz_tmp = list(analysis.with_sites().keys())
         pames = str(enz_tmp)[1:-1]
         enz_tmp = set(enz_tmp)
         # Get the number of mutations in backpep sequence.
         y = seqcomp(args.input, x)
         if enz_tmp != enz and enz and y <= args.n_mut:
-            print('Original sequence enzymes: {}'.format(oname))
-            anal.print_as('map')
-            print('Proposed sequence enzymes: {}'.format(pames))
-            anal.print_that()
+            print('Original sequence enzymes: {0}'.format(oname))
+            analysis.print_as('map')
+            print('Proposed sequence enzymes: {0}'.format(pames))
+            analysis.print_that()
             # o: Only in original sequences, p: proposed seq.
             o = str(list(enz.difference(enz_tmp)))[1:-1]
             p = str(list(enz_tmp.difference(enz)))[1:-1]
-            print('Enzimes only in original sequence: {}\n'.format(o))
-            print('Enzimes only in proposed sequence: {}'.format(p))
+            print('Enzimes only in original sequence: {0}\n'.format(o))
+            print('Enzimes only in proposed sequence: {0}'.format(p))
             print('=========================')

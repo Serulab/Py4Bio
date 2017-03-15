@@ -8,7 +8,7 @@ from bottle import route, post, run, static_file, request, view
 
 @route('/')
 def index():
-    return static_file('index.tpl', root='views/')
+    return static_file('index.html', root='views/')
 
 @post('/muscle_result')
 @view('result')
