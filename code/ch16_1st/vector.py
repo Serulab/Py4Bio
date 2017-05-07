@@ -1,24 +1,15 @@
-
-
-#!/usr/bin/env python
-
-import os
-#import os.path
-import subprocess
-from tempfile import mkstemp
-
-from bottle import route, post, run, static_file, request, view
+import os, io
 
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
-from Bio.Blast import NCBIXML, NCBIStandalone
+from Bio.Blast import NCBIXML
+from Bio.Blast.Applications import NcbiblastnCommandline as blastn
+from bottle import route, post, run, static_file, request, view
 from tempfile import NamedTemporaryFile
 
-
-
-BLAST_EXE = '/var/www/blast-2.2.18/bin/blastall'
+BLAST_EXE = '/home/sbassi/opt/ncbi-blast-2.6.0+/bin/blastn'
+DB_BASE_PATH = '/home/sbassi/opt/ncbi-blast-2.6.0+/db/'
 MASK = 'N'
-DB_BASE_PATH = '/var/www/blast/db/''
 
 def create_rel(XMLin):
     """
@@ -26,18 +17,22 @@ def create_rel(XMLin):
     with the region to mask
     """
     bat1 = {}
-    b_records = NCBIXML.parse(XMLin)
+    output = io.StringIO()
+    output.write(XMLin)
+    output.seek(0)
+    b_records = NCBIXML.parse(output)
     for b_record in b_records:
         for alin in b_record.alignments:
             for hsp in alin.hsps:
                 qs = hsp.query_start
                 qe = hsp.query_end
                 if qs > qe:
-                    qe,qs = qs,qe
-                if b_record.query not in bat1:
-                    bat1[b_record.query] = [(qs,qe)]
+                    qe, qs = qs, qe
+                record_id = b_record.query.split(' ')[0]
+                if record_id not in bat1:
+                    bat1[record_id] = [(qs,qe)]
                 else:
-                    bat1[b_record.query].append((qs,qe))
+                    bat1[record_id].append((qs,qe))
     return bat1
 
 def maskseqs(ffh, bat1):
@@ -53,69 +48,50 @@ def maskseqs(ffh, bat1):
             mutable_seq = record.seq.tomutable()
             coords = bat1[record.id]
             for x in coords:
-                mutable_seq[x[0]:x[1]] = mask*(x[1]-x[0])
-            seq_rec = SeqRecord(mutable_seq,record.id,'','')
+                mutable_seq[x[0]:x[1]] = MASK*(x[1]-x[0])
+            seq_rec = SeqRecord(mutable_seq, record.id, '', '')
             outseqs.append(seq_rec)
         else:
-            # Leave the sequence as found when its name is
-            # not in the dictionary.
+            # Leave the sequence as found
             outseqs.append(record)
     return outseqs
 
 @route('/')
 def index():
-    return static_file('index.tpl', root='views/')
+    return static_file('index.html', root='views/')
 
 @post('/vector_result')
-@view('result')
+@view('vector_result')
 def result():
     seqs = request.forms.get('seqs')
-    # Check if the textarea is empty
-    if not seqs:
-        # Since the textarea is empty, check the uploaded file
-        seqs = request.forms.get('seqdatafile')
-
-    blast_db = request.forms.get('blastdb','customdb')
-    if blast_db == 'customdb':
+    db = os.path.join(DB_BASE_PATH, 'UniVec_Core')
+    if request.forms.get('vector','customdb') == 'customdb':
         db = os.path.join(DB_BASE_PATH, 'custom')
-    elif blast_db == 'ncbivector':
-        db = os.path.join(DB_BASE_PATH, 'vector')
-
-
     # Create a temporary file
-    fasta_in_fh = NamedTemporaryFile()
-    # Write the user entered sequence into this temporary file
-    fasta_in_fh.write(seqs)
-    # Flush the data to disk without closing and deleting the file,
-    # since that closing a temporary file also deletes it
-    fasta_in_fh.flush()
-    # Get the name of the temporary file
-    file_in = fasta_in_fh.name
-    # Run the BLAST query
-    rh, eh = NCBIStandalone.blastall(BLAST_EXE, 'blastn', db,
-                                     file_in, expectation='1e-6')
-    # Create contamination position and store it in a dictionary
-    bat1 = create_rel(rh)
-    # Reset the pointer position to the begining of the file
-    fasta_in_fh.seek(0)
-    # Get the sequences masked
-    newseqs = maskseqs(fasta_in_fh, bat1)
-    # Close and delete the temporary file
-    fasta_in_fh.close()
-    # Creates a new temporary file
-    fasta_out_fh = NamedTemporaryFile()
-    # Write the masked sequence into this temporary file
-    SeqIO.write(newseqs,fasta_out_fh,'fasta')
-    # Reset the pointer position to the begining of the file
-    fasta_out_fh.seek(0)
-    # Read the file
-    finalout = fasta_out_fh.read()
-    # Close and delete the temporary file
-    fasta_out_fh.close()
+    with NamedTemporaryFile(mode='w') as fasta_in_fh:
+        # Write the user entered sequence into this temporary file
+        fasta_in_fh.write(seqs)
+        # Flush data to disk without closing and deleting the file,
+        # since that closing a temporary file also deletes it
+        fasta_in_fh.flush()
+        # Get the name of the temporary file
+        file_in = fasta_in_fh.name
+        # Run the BLAST query
+        blastn_cline = blastn(cmd=BLAST_EXE, query=file_in, db=db,
+                              evalue=.0005, outfmt=5)
+        rh, eh = blastn_cline()
+        # Create contamination position and store it in a dictionary
+        bat1 = create_rel(rh)
+        # Get the sequences masked
+        newseqs = maskseqs(file_in, bat1)
+    with io.StringIO() as fasta_out_fh:
+        SeqIO.write(newseqs, fasta_out_fh, 'fasta')
+        fasta_out_fh.seek(0)
+        finalout = fasta_out_fh.read()
     return {'finalout':finalout}
 
-print 'Content-type: text/html\n'
-print """<html><head><title>Vector Filter Output</title></head>
-<body>Filtered sequences:<br/><p></p><pre>%s</pre>
-</body></html>"""%(finalout)
-This code is part of the book "Python for Bioinformatics", by Sebastian Bassi (sbassi@genesdigitales.com). Return to home page.
+@route('/css/<filename>')
+def css_static(filename):
+    return static_file(filename, root='css/')
+
+run(host='localhost', port=8080)
