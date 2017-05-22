@@ -4,15 +4,18 @@ from Bio import Seq
 from Bio.Alphabet import IUPAC
 from Bio import Restriction
 from Bio.Data import CodonTable
+from jinja2 import Template
 
 helpstr = '''Given a DNA sequence of a polypeptide, this program
 generates alternative DNA sequences that code for the same
 polypeptide but that can be sorted out by DNA restriction.
+Requires Biopython >= 1.69
 Author: Sebastian Bassi (sbassi@genesdigitales.com)'''
 usage = helpstr + '\n\nusage: %(prog)s input_sequence [options]'
 parser = ArgumentParser(usage=usage)
 parser.add_argument('input', help='Input sequence')
-parser.add_argument('-o', '--output', help='name of the output file',
+parser.add_argument('-o', '--output', help=
+                    'name of the output file',
                     default='output.html')
 parser.add_argument('-m', '--mutations', type=int,
                   help='number of allowed mutations',
@@ -79,35 +82,38 @@ bakpeps = backtrans(ori_pep, args.table_id)
 # Make a restriction analysis for the orignal sequence.
 analysis = Restriction.Analysis(Restriction.CommOnly, dna)
 analysis.print_as('map')
-print('builtin_seq: {0}\nPeptide: {1}\n'.format(args.input, ori_pep))
-print('ORIGINAL SEQUENCE:')
-analysis.print_that()
+dna_input = args.input
+ori_map = analysis.format_output()
 # Store the enzymes that cut in the original sequence.
 enz = list(analysis.with_sites().keys())
 # Get a string out of the enzyme list, only for
 # printing purposes.
 oname = str(enz)[1:-1]
 enz = set(enz)
-print('=========================')
-for x in bakpeps:
-    if x not in args.input:
+bakpeps_out = []
+for bakpep in bakpeps:
+    tmp_d = {}
+    if bakpep not in args.input:
         # Make a restriction analysis for each sequence.
         analysis = Restriction.Analysis(Restriction.CommOnly,
-                Seq.Seq(x, IUPAC.unambiguous_dna))
+                Seq.Seq(bakpep, IUPAC.unambiguous_dna))
         # Store the enzymes that cut in this sequence.
         enz_tmp = list(analysis.with_sites().keys())
         pames = str(enz_tmp)[1:-1]
         enz_tmp = set(enz_tmp)
         # Get the number of mutations in backpep sequence.
-        y = seqcomp(args.input, x)
+        y = seqcomp(args.input, bakpep)
         if enz_tmp != enz and enz and y <= args.n_mut:
-            print('Original sequence enzymes: {0}'.format(oname))
             analysis.print_as('map')
-            print('Proposed sequence enzymes: {0}'.format(pames))
-            analysis.print_that()
-            # o: Only in original sequences, p: proposed seq.
-            o = str(list(enz.difference(enz_tmp)))[1:-1]
-            p = str(list(enz_tmp.difference(enz)))[1:-1]
-            print('Enzimes only in original sequence: {0}\n'.format(o))
-            print('Enzimes only in proposed sequence: {0}'.format(p))
-            print('=========================')
+            tmp_d['pames'] = pames
+            tmp_d['graph'] = analysis.format_output()
+            tmp_d['o'] = str(list(enz.difference(enz_tmp)))[1:-1]
+            tmp_d['p'] = str(list(enz_tmp.difference(enz)))[1:-1]
+            bakpeps_out.append(tmp_d)
+with open('mutation.tpl') as fh:
+    tpl = fh.read()
+    template = Template(tpl)
+    render = template.render(dna_input=dna_input,
+                             ori_pep=ori_pep, ori_map=ori_map,
+                             oname=oname, bakpeps_out=bakpeps_out)
+    print(render)
