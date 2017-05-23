@@ -1,0 +1,1623 @@
+Original Sequence: ATGGGTAATTGCAACGGGGCATCCAAG
+Peptide: MGNCNGASK
+
+Restriction map for original sequence:
+
+ 2 AbaSI FspEI
+ |                                                          
+ |    7 MluCI TasI FokI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    ||9 AbaSI
+ |    |||                                                   
+ |    |||10 AbaSI
+ |    ||||                                                  
+ |    |||| 12 HpyCH4V
+ |    |||| |                                                
+ |    |||| |     18 AbaSI
+ |    |||| |     |                                          
+ |    |||| |     | 20 BseGI BtsCI BstF5I
+ |    |||| |     | |                                        
+ |    |||| |     | |   24 AbaSI
+ |    |||| |     | |   |                                    
+ATGGGTAATTGCAACGGGGCATCCAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCCCGTAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     
+FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     
+Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      MseI      
+MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     SaqAI     
+Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      Tru1I     
+Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      ApeKI     
+AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     BciT130I  
+BcnI      BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     
+BmsI      BpuMI     Bse1I     BseBI     BseMII    BseNI     BseXI     BslFI     
+BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    BstDEI    
+BstMAI    BstNI     BstSCI    BstV1I    BtsIMutI  Cfr13I    CseI      DdeI      
+Eco47I    EcoRII    FaqI      FauI      Fnu4HI    Fsp4HI    GluI      HgaI      
+HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III HpyF3I    LmnI      
+Lsp1109I  LweI      MaeIII    MboII     MlyI      MspR9I    MvaI      NciI      
+NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     PspPI     
+SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      StyD4I    TaaI      
+TauI      TfiI      TscAI     TseFI     TseI      Tsp45I    TspDTI    TspGWI    
+TspRI     VpaK11BI  AanI      AatII     Acc16I    Acc36I    Acc65I    AccB1I    
+AccBSI    AccI      AccIII    AclI      AcoI      AcsI      AcuI      AcvI      
+AcyI      AfeI      AflII     AflIII    AgeI      AhlI      AjiI      Alw21I    
+Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      AseI      
+AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     
+BalI      BamHI     BanI      BanII     BauI      BbrPI     BbsI      Bbv12I    
+BciVI     BclI      BcuI      BfmI      BfoI      BfrI      BfuAI     BfuI      
+BglII     BlnI      BmcAI     BmeT110I  BmgBI     BmiI      BmrI      BmtI      
+BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     BsaHI     
+BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     BseDI     
+BseMI     BsePI     BseRI     BseSI     BseX3I    BseYI     BsgI      Bsh1285I  
+BshNI     BshTI     BshVI     BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     
+BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp1286I  Bsp13I    Bsp1407I  
+Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspLI     BspMAI    BspMI     
+BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrBI     BsrDI     BsrFI     
+BsrGI     BssAI     BssECI    BssHII    BssNAI    BssNI     BssSI     BssT1I    
+Bst1107I  Bst2BI    Bst6I     BstACI    BstAFI    BstAUI    BstBAI    BstBI     
+BstC8I    BstDSI    BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    
+BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    BsuI      BsuTUI    
+BtgI      BtgZI     BtrI      BtsI      BtuMI     BveI      Cac8I     CciI      
+Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     DinI      DraI      EaeI      
+EagI      Eam1104I  EarI      EciI      Ecl136II  EclXI     Eco105I   Eco130I   
+Eco147I   Eco24I    Eco31I    Eco32I    Eco47III  Eco52I    Eco53kI   Eco57I    
+Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     EcoT14I   EcoT22I   EcoT38I   
+EgeI      EheI      ErhI      Esp3I     FauNDI    FbaI      FblI      FriOI     
+FspI      GsaI      GsuI      HaeII     Hin1I     HincII    HindII    HindIII   
+HpaI      Hpy166II  Hpy188III Hpy8I     Hsp92I    KasI      Kpn2I     KpnI      
+KroI      Ksp22I    KspAI     KspI      MbiI      MfeI      MflI      MhlI      
+MlsI      MluI      MluNI     Mly113I   MmeI      Mox20I    Mph1103I  MroI      
+MroNI     MscI      Msp20I    MspA1I    MspCI     MunI      Mva1269I  NaeI      
+NarI      NcoI      NdeI      NgoMIV    NheI      NlaIV     NmeAIII   NruI      
+NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    PagI      PauI      
+PceI      PciI      PctI      PdiI      Pfl23II   PinAI     Ple19I    PluTI     
+PmaCI     PmlI      Ppu21I    PscI      PshBI     PsiI      Psp124BI  Psp1406I  
+PspCI     PspFI     PspLI     PspN4I    PspOMI    PstI      PsuI      PteI      
+PvuI      PvuII     RruI      SacI      SacII     SalI      ScaI      SduI      
+SfcI      SfoI      Sfr274I   Sfr303I   SfuI      SgrBI     SlaI      SmaI      
+SmlI      SmoI      SnaBI     SpeI      SphI      SseBI     SspDI     SspI      
+SstI      StuI      StyI      TaqII     TatI      TspMI     Vha464I   VneI      
+VspI      XapI      XbaI      XceI      XhoI      XmaI      XmaJI     XmiI      
+ZraI      ZrmI      Zsp2I     AarI      AxyI      BbvCI     BlpI      Bpu10I    
+Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    CpoI      
+CsiI      CspI      Eco81I    Eco91I    EcoO109I  EcoO65I   KflI      LguI      
+MabI      PasI      PciSI     PfoI      PpuMI     Psp5II    PspEI     PspPPI    
+Rsr2I     RsrII     SapI      SexAI     AbsI      AscI      AsiSI     CciNI     
+FseI      FspAI     MauBI     MreI      MssI      NotI      PacI      PalAI     
+PmeI      PspXI     RgaI      RigI      SbfI      SdaI      SfaAI     SgfI      
+SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  SwaI      AdeI      
+AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     PsyI      Tth111I   
+AleI      Asp700I   BoxI      BsaBI     Bse8I     BseJI     BstPAI    MroXI     
+MslI      OliI      PdmI      PshAI     RseI      SmiMI     XmnI      AccB7I    
+AfiI      AhdI      BaeI      BglI      BmeRI     BplI      BsaXI     Bsc4I     
+BseLI     BslI      BstAPI    BstENI    BstMWI    DriI      Eam1105I  EcoNI     
+FalI      HpyF10VI  MwoI      PflMI     Van91I    XagI      AasI      BcgI      
+BstXI     CspCI     DrdI      DseDI     AloI      ArsI      BarI      PcsI      
+PsrI      SfiI      AjuI      XcmI      
+
+
+=========================
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI
+ |                                                          
+ |    7 MluCI TasI FokI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    || 10 AbaSI
+ |    || |                                                  
+ |    || | 12 HpyCH4V
+ |    || | |                                                
+ |    || | |     18 HspAI AbaSI HinP1I Hin6I
+ |    || | |     |                                          
+ |    || | |     |19 GlaI
+ |    || | |     ||                                         
+ |    || | |     ||20 BstHHI BseGI HhaI AspLEI BtsCI CfoI BstF5I
+ |    || | |     |||                                        
+ |    || | |     |||   24 AbaSI
+ |    || | |     |||   |                                    
+ATGGGTAATTGCAACGGCGCATCCAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCGCGTAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+FspEI     AccII     AciI      AfaI      AluBI     AluI      AoxI      BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstKTI    BstMBI    BstUI     BsuRI     Csp6I     
+CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     FaeI      FaiI      
+FatI      FspBI     HaeIII    HapII     Hin1II    HpaII     HpyCH4IV  HpySE526I 
+Hsp92II   Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      
+MseI      MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     
+SaqAI     Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      
+Tru1I     Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      
+ApeKI     AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     
+BciT130I  BcnI      BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  
+BmrFI     BmsI      BpuMI     Bse1I     BseBI     BseMII    BseNI     BseXI     
+BslFI     BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    
+BstDEI    BstMAI    BstNI     BstSCI    BstV1I    BtsIMutI  Cfr13I    CseI      
+DdeI      Eco47I    EcoRII    FaqI      FauI      Fnu4HI    Fsp4HI    GluI      
+HgaI      HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III HpyF3I    
+LmnI      Lsp1109I  LweI      MaeIII    MboII     MlyI      MspR9I    MvaI      
+NciI      NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     
+PspPI     SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      StyD4I    
+TaaI      TauI      TfiI      TscAI     TseFI     TseI      Tsp45I    TspDTI    
+TspGWI    TspRI     VpaK11BI  AanI      AatII     Acc16I    Acc36I    Acc65I    
+AccB1I    AccBSI    AccI      AccIII    AclI      AcoI      AcsI      AcuI      
+AcvI      AcyI      AfeI      AflII     AflIII    AgeI      AhlI      AjiI      
+Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      
+AseI      AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    AvaI      AvrII     
+BaeGI     BalI      BamHI     BanI      BanII     BauI      BbrPI     BbsI      
+Bbv12I    BciVI     BclI      BcuI      BfmI      BfoI      BfrI      BfuAI     
+BfuI      BglII     BlnI      BmcAI     BmeT110I  BmgBI     BmiI      BmrI      
+BmtI      BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     
+BsaHI     BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     
+BseDI     BseMI     BsePI     BseRI     BseSI     BseX3I    BseYI     BsgI      
+Bsh1285I  BshNI     BshTI     BshVI     BsiEI     BsiHKAI   BsiHKCI   BsiWI     
+BsmBI     BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp1286I  Bsp13I    
+Bsp1407I  Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspLI     BspMAI    
+BspMI     BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrBI     BsrDI     
+BsrFI     BsrGI     BssAI     BssECI    BssHII    BssNAI    BssNI     BssSI     
+BssT1I    Bst1107I  Bst2BI    Bst6I     BstACI    BstAFI    BstAUI    BstBAI    
+BstBI     BstC8I    BstDSI    BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    
+BstSNI    BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    BsuI      
+BsuTUI    BtgI      BtgZI     BtrI      BtsI      BtuMI     BveI      Cac8I     
+CciI      Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     DinI      DraI      
+EaeI      EagI      Eam1104I  EarI      EciI      Ecl136II  EclXI     Eco105I   
+Eco130I   Eco147I   Eco24I    Eco31I    Eco32I    Eco47III  Eco52I    Eco53kI   
+Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     EcoT14I   EcoT22I   
+EcoT38I   EgeI      EheI      ErhI      Esp3I     FauNDI    FbaI      FblI      
+FriOI     FspI      GsaI      GsuI      HaeII     Hin1I     HincII    HindII    
+HindIII   HpaI      Hpy166II  Hpy188III Hpy8I     Hsp92I    KasI      Kpn2I     
+KpnI      KroI      Ksp22I    KspAI     KspI      MbiI      MfeI      MflI      
+MhlI      MlsI      MluI      MluNI     Mly113I   MmeI      Mox20I    Mph1103I  
+MroI      MroNI     MscI      Msp20I    MspA1I    MspCI     MunI      Mva1269I  
+NaeI      NarI      NcoI      NdeI      NgoMIV    NheI      NlaIV     NmeAIII   
+NruI      NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    PagI      
+PauI      PceI      PciI      PctI      PdiI      Pfl23II   PinAI     Ple19I    
+PluTI     PmaCI     PmlI      Ppu21I    PscI      PshBI     PsiI      Psp124BI  
+Psp1406I  PspCI     PspFI     PspLI     PspN4I    PspOMI    PstI      PsuI      
+PteI      PvuI      PvuII     RruI      SacI      SacII     SalI      ScaI      
+SduI      SfcI      SfoI      Sfr274I   Sfr303I   SfuI      SgrBI     SlaI      
+SmaI      SmlI      SmoI      SnaBI     SpeI      SphI      SseBI     SspDI     
+SspI      SstI      StuI      StyI      TaqII     TatI      TspMI     Vha464I   
+VneI      VspI      XapI      XbaI      XceI      XhoI      XmaI      XmaJI     
+XmiI      ZraI      ZrmI      Zsp2I     AarI      AxyI      BbvCI     BlpI      
+Bpu10I    Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    
+CpoI      CsiI      CspI      Eco81I    Eco91I    EcoO109I  EcoO65I   KflI      
+LguI      MabI      PasI      PciSI     PfoI      PpuMI     Psp5II    PspEI     
+PspPPI    Rsr2I     RsrII     SapI      SexAI     AbsI      AscI      AsiSI     
+CciNI     FseI      FspAI     MauBI     MreI      MssI      NotI      PacI      
+PalAI     PmeI      PspXI     RgaI      RigI      SbfI      SdaI      SfaAI     
+SgfI      SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  SwaI      
+AdeI      AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     PsyI      
+Tth111I   AleI      Asp700I   BoxI      BsaBI     Bse8I     BseJI     BstPAI    
+MroXI     MslI      OliI      PdmI      PshAI     RseI      SmiMI     XmnI      
+AccB7I    AfiI      AhdI      BaeI      BglI      BmeRI     BplI      BsaXI     
+Bsc4I     BseLI     BslI      BstAPI    BstENI    BstMWI    DriI      Eam1105I  
+EcoNI     FalI      HpyF10VI  MwoI      PflMI     Van91I    XagI      AasI      
+BcgI      BstXI     CspCI     DrdI      DseDI     AloI      ArsI      BarI      
+PcsI      PsrI      SfiI      AjuI      XcmI      
+
+
+Proposed sequence enzymes: HspAI, BstF5I, BseGI, AbaSI, AspLEI, MluCI, BstHHI, Hin6I, GlaI, Sse9I, CfoI, HhaI, BtsCI, HpyCH4V, TasI, HinP1I, FokI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI FspEI
+ |                                                          
+ |    7 MluCI TasI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    ||9 AbaSI
+ |    |||                                                   
+ |    |||10 AbaSI
+ |    ||||                                                  
+ |    |||| 12 HpyCH4V
+ |    |||| |                                                
+ |    |||| |     18 AbaSI
+ |    |||| |     |                                          
+ |    |||| |     |     24 BstDEI AbaSI DdeI HpyF3I
+ |    |||| |     |     |                                    
+ATGGGTAATTGCAACGGGGCATCTAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCCCGTAGATTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     
+FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     
+Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      MseI      
+MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     SaqAI     
+Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      Tru1I     
+Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      ApeKI     
+AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     BciT130I  
+BcnI      BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     
+BmsI      BpuMI     Bse1I     BseBI     BseGI     BseMII    BseNI     BseXI     
+BslFI     BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    
+BstF5I    BstMAI    BstNI     BstSCI    BstV1I    BtsCI     BtsIMutI  Cfr13I    
+CseI      Eco47I    EcoRII    FaqI      FauI      Fnu4HI    FokI      Fsp4HI    
+GluI      HgaI      HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III 
+LmnI      Lsp1109I  LweI      MaeIII    MboII     MlyI      MspR9I    MvaI      
+NciI      NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     
+PspPI     SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      StyD4I    
+TaaI      TauI      TfiI      TscAI     TseFI     TseI      Tsp45I    TspDTI    
+TspGWI    TspRI     VpaK11BI  AanI      AatII     Acc16I    Acc36I    Acc65I    
+AccB1I    AccBSI    AccI      AccIII    AclI      AcoI      AcsI      AcuI      
+AcvI      AcyI      AfeI      AflII     AflIII    AgeI      AhlI      AjiI      
+Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      
+AseI      AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    AvaI      AvrII     
+BaeGI     BalI      BamHI     BanI      BanII     BauI      BbrPI     BbsI      
+Bbv12I    BciVI     BclI      BcuI      BfmI      BfoI      BfrI      BfuAI     
+BfuI      BglII     BlnI      BmcAI     BmeT110I  BmgBI     BmiI      BmrI      
+BmtI      BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     
+BsaHI     BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     
+BseDI     BseMI     BsePI     BseRI     BseSI     BseX3I    BseYI     BsgI      
+Bsh1285I  BshNI     BshTI     BshVI     BsiEI     BsiHKAI   BsiHKCI   BsiWI     
+BsmBI     BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp1286I  Bsp13I    
+Bsp1407I  Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspLI     BspMAI    
+BspMI     BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrBI     BsrDI     
+BsrFI     BsrGI     BssAI     BssECI    BssHII    BssNAI    BssNI     BssSI     
+BssT1I    Bst1107I  Bst2BI    Bst6I     BstACI    BstAFI    BstAUI    BstBAI    
+BstBI     BstC8I    BstDSI    BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    
+BstSNI    BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    BsuI      
+BsuTUI    BtgI      BtgZI     BtrI      BtsI      BtuMI     BveI      Cac8I     
+CciI      Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     DinI      DraI      
+EaeI      EagI      Eam1104I  EarI      EciI      Ecl136II  EclXI     Eco105I   
+Eco130I   Eco147I   Eco24I    Eco31I    Eco32I    Eco47III  Eco52I    Eco53kI   
+Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     EcoT14I   EcoT22I   
+EcoT38I   EgeI      EheI      ErhI      Esp3I     FauNDI    FbaI      FblI      
+FriOI     FspI      GsaI      GsuI      HaeII     Hin1I     HincII    HindII    
+HindIII   HpaI      Hpy166II  Hpy188III Hpy8I     Hsp92I    KasI      Kpn2I     
+KpnI      KroI      Ksp22I    KspAI     KspI      MbiI      MfeI      MflI      
+MhlI      MlsI      MluI      MluNI     Mly113I   MmeI      Mox20I    Mph1103I  
+MroI      MroNI     MscI      Msp20I    MspA1I    MspCI     MunI      Mva1269I  
+NaeI      NarI      NcoI      NdeI      NgoMIV    NheI      NlaIV     NmeAIII   
+NruI      NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    PagI      
+PauI      PceI      PciI      PctI      PdiI      Pfl23II   PinAI     Ple19I    
+PluTI     PmaCI     PmlI      Ppu21I    PscI      PshBI     PsiI      Psp124BI  
+Psp1406I  PspCI     PspFI     PspLI     PspN4I    PspOMI    PstI      PsuI      
+PteI      PvuI      PvuII     RruI      SacI      SacII     SalI      ScaI      
+SduI      SfcI      SfoI      Sfr274I   Sfr303I   SfuI      SgrBI     SlaI      
+SmaI      SmlI      SmoI      SnaBI     SpeI      SphI      SseBI     SspDI     
+SspI      SstI      StuI      StyI      TaqII     TatI      TspMI     Vha464I   
+VneI      VspI      XapI      XbaI      XceI      XhoI      XmaI      XmaJI     
+XmiI      ZraI      ZrmI      Zsp2I     AarI      AxyI      BbvCI     BlpI      
+Bpu10I    Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    
+CpoI      CsiI      CspI      Eco81I    Eco91I    EcoO109I  EcoO65I   KflI      
+LguI      MabI      PasI      PciSI     PfoI      PpuMI     Psp5II    PspEI     
+PspPPI    Rsr2I     RsrII     SapI      SexAI     AbsI      AscI      AsiSI     
+CciNI     FseI      FspAI     MauBI     MreI      MssI      NotI      PacI      
+PalAI     PmeI      PspXI     RgaI      RigI      SbfI      SdaI      SfaAI     
+SgfI      SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  SwaI      
+AdeI      AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     PsyI      
+Tth111I   AleI      Asp700I   BoxI      BsaBI     Bse8I     BseJI     BstPAI    
+MroXI     MslI      OliI      PdmI      PshAI     RseI      SmiMI     XmnI      
+AccB7I    AfiI      AhdI      BaeI      BglI      BmeRI     BplI      BsaXI     
+Bsc4I     BseLI     BslI      BstAPI    BstENI    BstMWI    DriI      Eam1105I  
+EcoNI     FalI      HpyF10VI  MwoI      PflMI     Van91I    XagI      AasI      
+BcgI      BstXI     CspCI     DrdI      DseDI     AloI      ArsI      BarI      
+PcsI      PsrI      SfiI      AjuI      XcmI      
+
+
+Proposed sequence enzymes: BstDEI, MluCI, AbaSI, FspEI, HpyCH4V, Sse9I, DdeI, HpyF3I, TasI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI FspEI
+ |                                                          
+ |    7 MluCI TasI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    ||9 AbaSI
+ |    |||                                                   
+ |    |||10 AbaSI
+ |    ||||                                                  
+ |    |||| 12 HpyCH4V
+ |    |||| |                                                
+ |    |||| |     18 AbaSI
+ |    |||| |     |                                          
+ |    |||| |     |     24 AbaSI
+ |    |||| |     |     |                                    
+ATGGGTAATTGCAACGGGGCATCAAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCCCGTAGTTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     
+FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     
+Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      MseI      
+MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     SaqAI     
+Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      Tru1I     
+Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      ApeKI     
+AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     BciT130I  
+BcnI      BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     
+BmsI      BpuMI     Bse1I     BseBI     BseGI     BseMII    BseNI     BseXI     
+BslFI     BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    
+BstDEI    BstF5I    BstMAI    BstNI     BstSCI    BstV1I    BtsCI     BtsIMutI  
+Cfr13I    CseI      DdeI      Eco47I    EcoRII    FaqI      FauI      Fnu4HI    
+FokI      Fsp4HI    GluI      HgaI      HinfI     HphI      Hpy188I   Hpy99I    
+HpyAV     HpyCH4III HpyF3I    LmnI      Lsp1109I  LweI      MaeIII    MboII     
+MlyI      MspR9I    MvaI      NciI      NmuCI     PfeI      PkrI      PleI      
+PpsI      Psp6I     PspGI     PspPI     SatI      Sau96I    SchI      ScrFI     
+SfaNI     SinI      StyD4I    TaaI      TauI      TfiI      TscAI     TseFI     
+TseI      Tsp45I    TspDTI    TspGWI    TspRI     VpaK11BI  AanI      AatII     
+Acc16I    Acc36I    Acc65I    AccB1I    AccBSI    AccI      AccIII    AclI      
+AcoI      AcsI      AcuI      AcvI      AcyI      AfeI      AflII     AflIII    
+AgeI      AhlI      AjiI      Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   
+ApaI      ApaLI     ApoI      AseI      AsiGI     Asp718I   AspA2I    AsuII     
+AsuNHI    AvaI      AvrII     BaeGI     BalI      BamHI     BanI      BanII     
+BauI      BbrPI     BbsI      Bbv12I    BciVI     BclI      BcuI      BfmI      
+BfoI      BfrI      BfuAI     BfuI      BglII     BlnI      BmcAI     BmeT110I  
+BmgBI     BmiI      BmrI      BmtI      BmuI      BpiI      BpmI      Bpu14I    
+BpuEI     Bsa29I    BsaAI     BsaHI     BsaI      BsaJI     BsaWI     Bse118I   
+Bse3DI    BseAI     BseCI     BseDI     BseMI     BsePI     BseRI     BseSI     
+BseX3I    BseYI     BsgI      Bsh1285I  BshNI     BshTI     BshVI     BsiEI     
+BsiHKAI   BsiHKCI   BsiWI     BsmBI     BsmI      Bso31I    BsoBI     Bsp119I   
+Bsp120I   Bsp1286I  Bsp13I    Bsp1407I  Bsp19I    Bsp68I    BspDI     BspEI     
+BspHI     BspLI     BspMAI    BspMI     BspOI     BspT104I  BspT107I  BspTI     
+BspTNI    BsrBI     BsrDI     BsrFI     BsrGI     BssAI     BssECI    BssHII    
+BssNAI    BssNI     BssSI     BssT1I    Bst1107I  Bst2BI    Bst6I     BstACI    
+BstAFI    BstAUI    BstBAI    BstBI     BstC8I    BstDSI    BstH2I    BstMCI    
+BstNSI    BstSFI    BstSLI    BstSNI    BstV2I    BstX2I    BstYI     BstZ17I   
+BstZI     Bsu15I    BsuI      BsuTUI    BtgI      BtgZI     BtrI      BtsI      
+BtuMI     BveI      Cac8I     CciI      Cfr10I    Cfr42I    Cfr9I     ClaI      
+CspAI     DinI      DraI      EaeI      EagI      Eam1104I  EarI      EciI      
+Ecl136II  EclXI     Eco105I   Eco130I   Eco147I   Eco24I    Eco31I    Eco32I    
+Eco47III  Eco52I    Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     
+EcoRV     EcoT14I   EcoT22I   EcoT38I   EgeI      EheI      ErhI      Esp3I     
+FauNDI    FbaI      FblI      FriOI     FspI      GsaI      GsuI      HaeII     
+Hin1I     HincII    HindII    HindIII   HpaI      Hpy166II  Hpy188III Hpy8I     
+Hsp92I    KasI      Kpn2I     KpnI      KroI      Ksp22I    KspAI     KspI      
+MbiI      MfeI      MflI      MhlI      MlsI      MluI      MluNI     Mly113I   
+MmeI      Mox20I    Mph1103I  MroI      MroNI     MscI      Msp20I    MspA1I    
+MspCI     MunI      Mva1269I  NaeI      NarI      NcoI      NdeI      NgoMIV    
+NheI      NlaIV     NmeAIII   NruI      NsbI      NsiI      NspI      NspV      
+PaeI      PaeR7I    PagI      PauI      PceI      PciI      PctI      PdiI      
+Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      Ppu21I    PscI      
+PshBI     PsiI      Psp124BI  Psp1406I  PspCI     PspFI     PspLI     PspN4I    
+PspOMI    PstI      PsuI      PteI      PvuI      PvuII     RruI      SacI      
+SacII     SalI      ScaI      SduI      SfcI      SfoI      Sfr274I   Sfr303I   
+SfuI      SgrBI     SlaI      SmaI      SmlI      SmoI      SnaBI     SpeI      
+SphI      SseBI     SspDI     SspI      SstI      StuI      StyI      TaqII     
+TatI      TspMI     Vha464I   VneI      VspI      XapI      XbaI      XceI      
+XhoI      XmaI      XmaJI     XmiI      ZraI      ZrmI      Zsp2I     AarI      
+AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  Bse21I    Bsp1720I  BspQI     
+BstEII    BstPI     Bsu36I    CpoI      CsiI      CspI      Eco81I    Eco91I    
+EcoO109I  EcoO65I   KflI      LguI      MabI      PasI      PciSI     PfoI      
+PpuMI     Psp5II    PspEI     PspPPI    Rsr2I     RsrII     SapI      SexAI     
+AbsI      AscI      AsiSI     CciNI     FseI      FspAI     MauBI     MreI      
+MssI      NotI      PacI      PalAI     PmeI      PspXI     RgaI      RigI      
+SbfI      SdaI      SfaAI     SgfI      SgrAI     SgrDI     SgsI      SmiI      
+SrfI      Sse8387I  SwaI      AdeI      AlwNI     CaiI      DraIII    MteI      
+PflFI     PstNI     PsyI      Tth111I   AleI      Asp700I   BoxI      BsaBI     
+Bse8I     BseJI     BstPAI    MroXI     MslI      OliI      PdmI      PshAI     
+RseI      SmiMI     XmnI      AccB7I    AfiI      AhdI      BaeI      BglI      
+BmeRI     BplI      BsaXI     Bsc4I     BseLI     BslI      BstAPI    BstENI    
+BstMWI    DriI      Eam1105I  EcoNI     FalI      HpyF10VI  MwoI      PflMI     
+Van91I    XagI      AasI      BcgI      BstXI     CspCI     DrdI      DseDI     
+AloI      ArsI      BarI      PcsI      PsrI      SfiI      AjuI      XcmI      
+
+
+
+Proposed sequence enzymes: MluCI, HpyCH4V, AbaSI, FspEI, Sse9I, TasI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI FspEI
+ |                                                          
+ |    7 MluCI TasI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    ||9 AbaSI
+ |    |||                                                   
+ |    |||10 AbaSI
+ |    ||||                                                  
+ |    |||| 12 HpyCH4V
+ |    |||| |                                                
+ |    |||| |  15 AbaSI
+ |    |||| |  |                                             
+ |    |||| |  |  18 AbaSI
+ |    |||| |  |  |                                          
+ |    |||| |  |  |    23 TaqI
+ |    |||| |  |  |    |                                     
+ |    |||| |  |  |    |24 AbaSI
+ |    |||| |  |  |    ||                                    
+ATGGGTAATTGCAACGGGGCATCGAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCCCGTAGCTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     
+FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     
+Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      MseI      
+MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     SaqAI     
+Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      Tru1I     Tru9I     
+XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      ApeKI     AspS9I    
+AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     BciT130I  BcnI      
+BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     BmsI      
+BpuMI     Bse1I     BseBI     BseGI     BseMII    BseNI     BseXI     BslFI     
+BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    BstDEI    
+BstF5I    BstMAI    BstNI     BstSCI    BstV1I    BtsCI     BtsIMutI  Cfr13I    
+CseI      DdeI      Eco47I    EcoRII    FaqI      FauI      Fnu4HI    FokI      
+Fsp4HI    GluI      HgaI      HinfI     HphI      Hpy188I   Hpy99I    HpyAV     
+HpyCH4III HpyF3I    LmnI      Lsp1109I  LweI      MaeIII    MboII     MlyI      
+MspR9I    MvaI      NciI      NmuCI     PfeI      PkrI      PleI      PpsI      
+Psp6I     PspGI     PspPI     SatI      Sau96I    SchI      ScrFI     SfaNI     
+SinI      StyD4I    TaaI      TauI      TfiI      TscAI     TseFI     TseI      
+Tsp45I    TspDTI    TspGWI    TspRI     VpaK11BI  AanI      AatII     Acc16I    
+Acc36I    Acc65I    AccB1I    AccBSI    AccI      AccIII    AclI      AcoI      
+AcsI      AcuI      AcvI      AcyI      AfeI      AflII     AflIII    AgeI      
+AhlI      AjiI      Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      
+ApaLI     ApoI      AseI      AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    
+AvaI      AvrII     BaeGI     BalI      BamHI     BanI      BanII     BauI      
+BbrPI     BbsI      Bbv12I    BciVI     BclI      BcuI      BfmI      BfoI      
+BfrI      BfuAI     BfuI      BglII     BlnI      BmcAI     BmeT110I  BmgBI     
+BmiI      BmrI      BmtI      BmuI      BpiI      BpmI      Bpu14I    BpuEI     
+Bsa29I    BsaAI     BsaHI     BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    
+BseAI     BseCI     BseDI     BseMI     BsePI     BseRI     BseSI     BseX3I    
+BseYI     BsgI      Bsh1285I  BshNI     BshTI     BshVI     BsiEI     BsiHKAI   
+BsiHKCI   BsiWI     BsmBI     BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   
+Bsp1286I  Bsp13I    Bsp1407I  Bsp19I    Bsp68I    BspDI     BspEI     BspHI     
+BspLI     BspMAI    BspMI     BspOI     BspT104I  BspT107I  BspTI     BspTNI    
+BsrBI     BsrDI     BsrFI     BsrGI     BssAI     BssECI    BssHII    BssNAI    
+BssNI     BssSI     BssT1I    Bst1107I  Bst2BI    Bst6I     BstACI    BstAFI    
+BstAUI    BstBAI    BstBI     BstC8I    BstDSI    BstH2I    BstMCI    BstNSI    
+BstSFI    BstSLI    BstSNI    BstV2I    BstX2I    BstYI     BstZ17I   BstZI     
+Bsu15I    BsuI      BsuTUI    BtgI      BtgZI     BtrI      BtsI      BtuMI     
+BveI      Cac8I     CciI      Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     
+DinI      DraI      EaeI      EagI      Eam1104I  EarI      EciI      Ecl136II  
+EclXI     Eco105I   Eco130I   Eco147I   Eco24I    Eco31I    Eco32I    Eco47III  
+Eco52I    Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     
+EcoT14I   EcoT22I   EcoT38I   EgeI      EheI      ErhI      Esp3I     FauNDI    
+FbaI      FblI      FriOI     FspI      GsaI      GsuI      HaeII     Hin1I     
+HincII    HindII    HindIII   HpaI      Hpy166II  Hpy188III Hpy8I     Hsp92I    
+KasI      Kpn2I     KpnI      KroI      Ksp22I    KspAI     KspI      MbiI      
+MfeI      MflI      MhlI      MlsI      MluI      MluNI     Mly113I   MmeI      
+Mox20I    Mph1103I  MroI      MroNI     MscI      Msp20I    MspA1I    MspCI     
+MunI      Mva1269I  NaeI      NarI      NcoI      NdeI      NgoMIV    NheI      
+NlaIV     NmeAIII   NruI      NsbI      NsiI      NspI      NspV      PaeI      
+PaeR7I    PagI      PauI      PceI      PciI      PctI      PdiI      Pfl23II   
+PinAI     Ple19I    PluTI     PmaCI     PmlI      Ppu21I    PscI      PshBI     
+PsiI      Psp124BI  Psp1406I  PspCI     PspFI     PspLI     PspN4I    PspOMI    
+PstI      PsuI      PteI      PvuI      PvuII     RruI      SacI      SacII     
+SalI      ScaI      SduI      SfcI      SfoI      Sfr274I   Sfr303I   SfuI      
+SgrBI     SlaI      SmaI      SmlI      SmoI      SnaBI     SpeI      SphI      
+SseBI     SspDI     SspI      SstI      StuI      StyI      TaqII     TatI      
+TspMI     Vha464I   VneI      VspI      XapI      XbaI      XceI      XhoI      
+XmaI      XmaJI     XmiI      ZraI      ZrmI      Zsp2I     AarI      AxyI      
+BbvCI     BlpI      Bpu10I    Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    
+BstPI     Bsu36I    CpoI      CsiI      CspI      Eco81I    Eco91I    EcoO109I  
+EcoO65I   KflI      LguI      MabI      PasI      PciSI     PfoI      PpuMI     
+Psp5II    PspEI     PspPPI    Rsr2I     RsrII     SapI      SexAI     AbsI      
+AscI      AsiSI     CciNI     FseI      FspAI     MauBI     MreI      MssI      
+NotI      PacI      PalAI     PmeI      PspXI     RgaI      RigI      SbfI      
+SdaI      SfaAI     SgfI      SgrAI     SgrDI     SgsI      SmiI      SrfI      
+Sse8387I  SwaI      AdeI      AlwNI     CaiI      DraIII    MteI      PflFI     
+PstNI     PsyI      Tth111I   AleI      Asp700I   BoxI      BsaBI     Bse8I     
+BseJI     BstPAI    MroXI     MslI      OliI      PdmI      PshAI     RseI      
+SmiMI     XmnI      AccB7I    AfiI      AhdI      BaeI      BglI      BmeRI     
+BplI      BsaXI     Bsc4I     BseLI     BslI      BstAPI    BstENI    BstMWI    
+DriI      Eam1105I  EcoNI     FalI      HpyF10VI  MwoI      PflMI     Van91I    
+XagI      AasI      BcgI      BstXI     CspCI     DrdI      DseDI     AloI      
+ArsI      BarI      PcsI      PsrI      SfiI      AjuI      XcmI      
+
+
+Proposed sequence enzymes: MluCI, AbaSI, FspEI, HpyCH4V, Sse9I, TasI, TaqI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI FspEI
+ |                                                          
+ |  5 BsaXI
+ |  |                                                       
+ |  | 7 MluCI TasI AbaSI Sse9I
+ |  | |                                                     
+ |  | |8 AbaSI
+ |  | ||                                                    
+ |  | ||9 AbaSI
+ |  | |||                                                   
+ |  | |||10 AbaSI
+ |  | ||||                                                  
+ |  | |||| 12 HpyCH4V
+ |  | |||| |                                                
+ |  | |||| |     18 AspS9I BmgT120I AbaSI Sau96I Cfr13I PspPI EcoO109I AoxI
+ |  | |||| |     |                                          
+ |  | |||| |     |19 BmiI BspLI NlaIV PspN4I
+ |  | |||| |     ||                                         
+ |  | |||| |     ||20 CviKI_1 BspANI BsuRI CviJI BsnI BshFI HaeIII
+ |  | |||| |     |||                                        
+ |  | |||| |     |||   24 AbaSI
+ |  | |||| |     |||   |                                    
+ATGGGTAATTGCAACGGGGCCTCCAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCCCGGAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AspLEI    BfaI      BfuCI     
+Bsh1236I  BsiSI     Bsp143I   BspACI    BspFNI    BssMI     BstFNI    BstHHI    
+BstKTI    BstMBI    BstUI     CfoI      Csp6I     CviAII    CviQI     DpnI      
+DpnII     FaeI      FaiI      FatI      FspBI     GlaI      HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     
+Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      MseI      
+MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     SaqAI     
+Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      Tru1I     
+Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      ApeKI     
+AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     BciT130I  BcnI      
+BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmrFI     BmsI      BpuMI     
+Bse1I     BseBI     BseGI     BseMII    BseNI     BseXI     BslFI     BsmAI     
+BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    BstDEI    BstF5I    
+BstMAI    BstNI     BstSCI    BstV1I    BtsCI     BtsIMutI  CseI      DdeI      
+Eco47I    EcoRII    FaqI      FauI      Fnu4HI    FokI      Fsp4HI    GluI      
+HgaI      HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III HpyF3I    
+LmnI      Lsp1109I  LweI      MaeIII    MboII     MlyI      MspR9I    MvaI      
+NciI      NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     
+SatI      SchI      ScrFI     SfaNI     SinI      StyD4I    TaaI      TauI      
+TfiI      TscAI     TseFI     TseI      Tsp45I    TspDTI    TspGWI    TspRI     
+VpaK11BI  AanI      AatII     Acc16I    Acc36I    Acc65I    AccB1I    AccBSI    
+AccI      AccIII    AclI      AcoI      AcsI      AcuI      AcvI      AcyI      
+AfeI      AflII     AflIII    AgeI      AhlI      AjiI      Alw21I    Alw44I    
+Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      AseI      AsiGI     
+Asp718I   AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     BalI      
+BamHI     BanI      BanII     BauI      BbrPI     BbsI      Bbv12I    BciVI     
+BclI      BcuI      BfmI      BfoI      BfrI      BfuAI     BfuI      BglII     
+BlnI      BmcAI     BmeT110I  BmgBI     BmrI      BmtI      BmuI      BpiI      
+BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     BsaHI     BsaI      BsaJI     
+BsaWI     Bse118I   Bse3DI    BseAI     BseCI     BseDI     BseMI     BsePI     
+BseRI     BseSI     BseX3I    BseYI     BsgI      Bsh1285I  BshNI     BshTI     
+BshVI     BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     BsmI      Bso31I    
+BsoBI     Bsp119I   Bsp120I   Bsp1286I  Bsp13I    Bsp1407I  Bsp19I    Bsp68I    
+BspDI     BspEI     BspHI     BspMAI    BspMI     BspOI     BspT104I  BspT107I  
+BspTI     BspTNI    BsrBI     BsrDI     BsrFI     BsrGI     BssAI     BssECI    
+BssHII    BssNAI    BssNI     BssSI     BssT1I    Bst1107I  Bst2BI    Bst6I     
+BstACI    BstAFI    BstAUI    BstBAI    BstBI     BstC8I    BstDSI    BstH2I    
+BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    BstV2I    BstX2I    BstYI     
+BstZ17I   BstZI     Bsu15I    BsuI      BsuTUI    BtgI      BtgZI     BtrI      
+BtsI      BtuMI     BveI      Cac8I     CciI      Cfr10I    Cfr42I    Cfr9I     
+ClaI      CspAI     DinI      DraI      EaeI      EagI      Eam1104I  EarI      
+EciI      Ecl136II  EclXI     Eco105I   Eco130I   Eco147I   Eco24I    Eco31I    
+Eco32I    Eco47III  Eco52I    Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   
+EcoRI     EcoRV     EcoT14I   EcoT22I   EcoT38I   EgeI      EheI      ErhI      
+Esp3I     FauNDI    FbaI      FblI      FriOI     FspI      GsaI      GsuI      
+HaeII     Hin1I     HincII    HindII    HindIII   HpaI      Hpy166II  Hpy188III 
+Hpy8I     Hsp92I    KasI      Kpn2I     KpnI      KroI      Ksp22I    KspAI     
+KspI      MbiI      MfeI      MflI      MhlI      MlsI      MluI      MluNI     
+Mly113I   MmeI      Mox20I    Mph1103I  MroI      MroNI     MscI      Msp20I    
+MspA1I    MspCI     MunI      Mva1269I  NaeI      NarI      NcoI      NdeI      
+NgoMIV    NheI      NmeAIII   NruI      NsbI      NsiI      NspI      NspV      
+PaeI      PaeR7I    PagI      PauI      PceI      PciI      PctI      PdiI      
+Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      Ppu21I    PscI      
+PshBI     PsiI      Psp124BI  Psp1406I  PspCI     PspFI     PspLI     PspOMI    
+PstI      PsuI      PteI      PvuI      PvuII     RruI      SacI      SacII     
+SalI      ScaI      SduI      SfcI      SfoI      Sfr274I   Sfr303I   SfuI      
+SgrBI     SlaI      SmaI      SmlI      SmoI      SnaBI     SpeI      SphI      
+SseBI     SspDI     SspI      SstI      StuI      StyI      TaqII     TatI      
+TspMI     Vha464I   VneI      VspI      XapI      XbaI      XceI      XhoI      
+XmaI      XmaJI     XmiI      ZraI      ZrmI      Zsp2I     AarI      AxyI      
+BbvCI     BlpI      Bpu10I    Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    
+BstPI     Bsu36I    CpoI      CsiI      CspI      Eco81I    Eco91I    EcoO65I   
+KflI      LguI      MabI      PasI      PciSI     PfoI      PpuMI     Psp5II    
+PspEI     PspPPI    Rsr2I     RsrII     SapI      SexAI     AbsI      AscI      
+AsiSI     CciNI     FseI      FspAI     MauBI     MreI      MssI      NotI      
+PacI      PalAI     PmeI      PspXI     RgaI      RigI      SbfI      SdaI      
+SfaAI     SgfI      SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  
+SwaI      AdeI      AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     
+PsyI      Tth111I   AleI      Asp700I   BoxI      BsaBI     Bse8I     BseJI     
+BstPAI    MroXI     MslI      OliI      PdmI      PshAI     RseI      SmiMI     
+XmnI      AccB7I    AfiI      AhdI      BaeI      BglI      BmeRI     BplI      
+Bsc4I     BseLI     BslI      BstAPI    BstENI    BstMWI    DriI      Eam1105I  
+EcoNI     FalI      HpyF10VI  MwoI      PflMI     Van91I    XagI      AasI      
+BcgI      BstXI     CspCI     DrdI      DseDI     AloI      ArsI      BarI      
+PcsI      PsrI      SfiI      AjuI      XcmI      
+
+
+Proposed sequence enzymes: AspS9I, FspEI, MluCI, NlaIV, Sse9I, EcoO109I, BmgT120I, BsnI, PspPI, TasI, HpyCH4V, BspANI, AoxI, Sau96I, BmiI, BsuRI, CviJI, AbaSI, HaeIII, PspN4I, BsaXI, CviKI_1, BspLI, BshFI, Cfr13I
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI
+ |                                                          
+ |    7 MluCI TasI FokI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    || 10 AbaSI
+ |    || |                                                  
+ |    || | 12 HpyCH4V
+ |    || | |                                                
+ |    || | |    17 TaaI Bst4CI HpyCH4III
+ |    || | |    |                                           
+ |    || | |    |18 AbaSI
+ |    || | |    ||                                          
+ |    || | |    || 20 BseGI BtsCI BstF5I HpyCH4V
+ |    || | |    || |                                        
+ |    || | |    || |   24 AbaSI
+ |    || | |    || |   |                                    
+ATGGGTAATTGCAACGGTGCATCCAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCACGTAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+FspEI     AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    
+BfaI      BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    
+BspANI    BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     
+BsuRI     CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      
+DpnII     FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     
+HhaI      Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   
+HspAI     Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      
+MseI      MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     
+SaqAI     Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      
+Tru1I     Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      
+ApeKI     AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     
+BciT130I  BcnI      BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  
+BmrFI     BmsI      BpuMI     Bse1I     BseBI     BseMII    BseNI     BseXI     
+BslFI     BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    BstDEI    
+BstMAI    BstNI     BstSCI    BstV1I    BtsIMutI  Cfr13I    CseI      DdeI      
+Eco47I    EcoRII    FaqI      FauI      Fnu4HI    Fsp4HI    GluI      HgaI      
+HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyF3I    LmnI      Lsp1109I  
+LweI      MaeIII    MboII     MlyI      MspR9I    MvaI      NciI      NmuCI     
+PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     PspPI     SatI      
+Sau96I    SchI      ScrFI     SfaNI     SinI      StyD4I    TauI      TfiI      
+TscAI     TseFI     TseI      Tsp45I    TspDTI    TspGWI    TspRI     VpaK11BI  
+AanI      AatII     Acc16I    Acc36I    Acc65I    AccB1I    AccBSI    AccI      
+AccIII    AclI      AcoI      AcsI      AcuI      AcvI      AcyI      AfeI      
+AflII     AflIII    AgeI      AhlI      AjiI      Alw21I    Alw44I    Ama87I    
+Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      AseI      AsiGI     Asp718I   
+AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     BalI      BamHI     
+BanI      BanII     BauI      BbrPI     BbsI      Bbv12I    BciVI     BclI      
+BcuI      BfmI      BfoI      BfrI      BfuAI     BfuI      BglII     BlnI      
+BmcAI     BmeT110I  BmgBI     BmiI      BmrI      BmtI      BmuI      BpiI      
+BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     BsaHI     BsaI      BsaJI     
+BsaWI     Bse118I   Bse3DI    BseAI     BseCI     BseDI     BseMI     BsePI     
+BseRI     BseSI     BseX3I    BseYI     BsgI      Bsh1285I  BshNI     BshTI     
+BshVI     BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     BsmI      Bso31I    
+BsoBI     Bsp119I   Bsp120I   Bsp1286I  Bsp13I    Bsp1407I  Bsp19I    Bsp68I    
+BspDI     BspEI     BspHI     BspLI     BspMAI    BspMI     BspOI     BspT104I  
+BspT107I  BspTI     BspTNI    BsrBI     BsrDI     BsrFI     BsrGI     BssAI     
+BssECI    BssHII    BssNAI    BssNI     BssSI     BssT1I    Bst1107I  Bst2BI    
+Bst6I     BstACI    BstAFI    BstAUI    BstBAI    BstBI     BstC8I    BstDSI    
+BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    BstV2I    BstX2I    
+BstYI     BstZ17I   BstZI     Bsu15I    BsuI      BsuTUI    BtgI      BtgZI     
+BtrI      BtsI      BtuMI     BveI      Cac8I     CciI      Cfr10I    Cfr42I    
+Cfr9I     ClaI      CspAI     DinI      DraI      EaeI      EagI      Eam1104I  
+EarI      EciI      Ecl136II  EclXI     Eco105I   Eco130I   Eco147I   Eco24I    
+Eco31I    Eco32I    Eco47III  Eco52I    Eco53kI   Eco57I    Eco72I    Eco88I    
+EcoICRI   EcoRI     EcoRV     EcoT14I   EcoT22I   EcoT38I   EgeI      EheI      
+ErhI      Esp3I     FauNDI    FbaI      FblI      FriOI     FspI      GsaI      
+GsuI      HaeII     Hin1I     HincII    HindII    HindIII   HpaI      Hpy166II  
+Hpy188III Hpy8I     Hsp92I    KasI      Kpn2I     KpnI      KroI      Ksp22I    
+KspAI     KspI      MbiI      MfeI      MflI      MhlI      MlsI      MluI      
+MluNI     Mly113I   MmeI      Mox20I    Mph1103I  MroI      MroNI     MscI      
+Msp20I    MspA1I    MspCI     MunI      Mva1269I  NaeI      NarI      NcoI      
+NdeI      NgoMIV    NheI      NlaIV     NmeAIII   NruI      NsbI      NsiI      
+NspI      NspV      PaeI      PaeR7I    PagI      PauI      PceI      PciI      
+PctI      PdiI      Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      
+Ppu21I    PscI      PshBI     PsiI      Psp124BI  Psp1406I  PspCI     PspFI     
+PspLI     PspN4I    PspOMI    PstI      PsuI      PteI      PvuI      PvuII     
+RruI      SacI      SacII     SalI      ScaI      SduI      SfcI      SfoI      
+Sfr274I   Sfr303I   SfuI      SgrBI     SlaI      SmaI      SmlI      SmoI      
+SnaBI     SpeI      SphI      SseBI     SspDI     SspI      SstI      StuI      
+StyI      TaqII     TatI      TspMI     Vha464I   VneI      VspI      XapI      
+XbaI      XceI      XhoI      XmaI      XmaJI     XmiI      ZraI      ZrmI      
+Zsp2I     AarI      AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  Bse21I    
+Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    CpoI      CsiI      CspI      
+Eco81I    Eco91I    EcoO109I  EcoO65I   KflI      LguI      MabI      PasI      
+PciSI     PfoI      PpuMI     Psp5II    PspEI     PspPPI    Rsr2I     RsrII     
+SapI      SexAI     AbsI      AscI      AsiSI     CciNI     FseI      FspAI     
+MauBI     MreI      MssI      NotI      PacI      PalAI     PmeI      PspXI     
+RgaI      RigI      SbfI      SdaI      SfaAI     SgfI      SgrAI     SgrDI     
+SgsI      SmiI      SrfI      Sse8387I  SwaI      AdeI      AlwNI     CaiI      
+DraIII    MteI      PflFI     PstNI     PsyI      Tth111I   AleI      Asp700I   
+BoxI      BsaBI     Bse8I     BseJI     BstPAI    MroXI     MslI      OliI      
+PdmI      PshAI     RseI      SmiMI     XmnI      AccB7I    AfiI      AhdI      
+BaeI      BglI      BmeRI     BplI      BsaXI     Bsc4I     BseLI     BslI      
+BstAPI    BstENI    BstMWI    DriI      Eam1105I  EcoNI     FalI      HpyF10VI  
+MwoI      PflMI     Van91I    XagI      AasI      BcgI      BstXI     CspCI     
+DrdI      DseDI     AloI      ArsI      BarI      PcsI      PsrI      SfiI      
+AjuI      XcmI      
+
+
+Proposed sequence enzymes: BseGI, AbaSI, MluCI, BstF5I, Bst4CI, BtsCI, HpyCH4III, HpyCH4V, Sse9I, TasI, FokI, TaaI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI FspEI
+ |                                                          
+ |    7 MluCI TasI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    ||9 AbaSI
+ |    |||                                                   
+ |    |||10 AbaSI
+ |    ||||                                                  
+ |    |||| 12 HpyCH4V
+ |    |||| |                                                
+ |    |||| |     18 AbaSI
+ |    |||| |     |                                          
+ |    |||| |     | 20 CviKI_1 CviJI
+ |    |||| |     | |                                        
+ |    |||| |     | |   24 AbaSI
+ |    |||| |     | |   |                                    
+ATGGGTAATTGCAACGGGGCTTCCAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCCCGAAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviQI     DpnI      DpnII     FaeI      FaiI      
+FatI      FspBI     GlaI      HaeIII    HapII     HhaI      Hin1II    Hin6I     
+HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     Kzo9I     LpnPI     
+MaeI      MaeII     MalI      MboI      MnlI      MseI      MspI      MspJI     
+MvnI      NdeII     NlaIII    RsaI      RsaNI     SaqAI     Sau3AI    SetI      
+SgeI      SsiI      SspMI     TaiI      TaqI      Tru1I     Tru9I     XspI      
+AclWI     AgsI      AjnI      Alw26I    AlwI      ApeKI     AspS9I    AsuC2I    
+AsuHPI    AvaII     BbvI      BccI      BceAI     BciT130I  BcnI      BcoDI     
+BisI      BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     BmsI      BpuMI     
+Bse1I     BseBI     BseGI     BseMII    BseNI     BseXI     BslFI     BsmAI     
+BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    BstDEI    BstF5I    
+BstMAI    BstNI     BstSCI    BstV1I    BtsCI     BtsIMutI  Cfr13I    CseI      
+DdeI      Eco47I    EcoRII    FaqI      FauI      Fnu4HI    FokI      Fsp4HI    
+GluI      HgaI      HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III 
+HpyF3I    LmnI      Lsp1109I  LweI      MaeIII    MboII     MlyI      MspR9I    
+MvaI      NciI      NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     
+PspGI     PspPI     SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      
+StyD4I    TaaI      TauI      TfiI      TscAI     TseFI     TseI      Tsp45I    
+TspDTI    TspGWI    TspRI     VpaK11BI  AanI      AatII     Acc16I    Acc36I    
+Acc65I    AccB1I    AccBSI    AccI      AccIII    AclI      AcoI      AcsI      
+AcuI      AcvI      AcyI      AfeI      AflII     AflIII    AgeI      AhlI      
+AjiI      Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     
+ApoI      AseI      AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    AvaI      
+AvrII     BaeGI     BalI      BamHI     BanI      BanII     BauI      BbrPI     
+BbsI      Bbv12I    BciVI     BclI      BcuI      BfmI      BfoI      BfrI      
+BfuAI     BfuI      BglII     BlnI      BmcAI     BmeT110I  BmgBI     BmiI      
+BmrI      BmtI      BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    
+BsaAI     BsaHI     BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     
+BseCI     BseDI     BseMI     BsePI     BseRI     BseSI     BseX3I    BseYI     
+BsgI      Bsh1285I  BshNI     BshTI     BshVI     BsiEI     BsiHKAI   BsiHKCI   
+BsiWI     BsmBI     BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp1286I  
+Bsp13I    Bsp1407I  Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspLI     
+BspMAI    BspMI     BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrBI     
+BsrDI     BsrFI     BsrGI     BssAI     BssECI    BssHII    BssNAI    BssNI     
+BssSI     BssT1I    Bst1107I  Bst2BI    Bst6I     BstACI    BstAFI    BstAUI    
+BstBAI    BstBI     BstC8I    BstDSI    BstH2I    BstMCI    BstNSI    BstSFI    
+BstSLI    BstSNI    BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    
+BsuI      BsuTUI    BtgI      BtgZI     BtrI      BtsI      BtuMI     BveI      
+Cac8I     CciI      Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     DinI      
+DraI      EaeI      EagI      Eam1104I  EarI      EciI      Ecl136II  EclXI     
+Eco105I   Eco130I   Eco147I   Eco24I    Eco31I    Eco32I    Eco47III  Eco52I    
+Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     EcoT14I   
+EcoT22I   EcoT38I   EgeI      EheI      ErhI      Esp3I     FauNDI    FbaI      
+FblI      FriOI     FspI      GsaI      GsuI      HaeII     Hin1I     HincII    
+HindII    HindIII   HpaI      Hpy166II  Hpy188III Hpy8I     Hsp92I    KasI      
+Kpn2I     KpnI      KroI      Ksp22I    KspAI     KspI      MbiI      MfeI      
+MflI      MhlI      MlsI      MluI      MluNI     Mly113I   MmeI      Mox20I    
+Mph1103I  MroI      MroNI     MscI      Msp20I    MspA1I    MspCI     MunI      
+Mva1269I  NaeI      NarI      NcoI      NdeI      NgoMIV    NheI      NlaIV     
+NmeAIII   NruI      NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    
+PagI      PauI      PceI      PciI      PctI      PdiI      Pfl23II   PinAI     
+Ple19I    PluTI     PmaCI     PmlI      Ppu21I    PscI      PshBI     PsiI      
+Psp124BI  Psp1406I  PspCI     PspFI     PspLI     PspN4I    PspOMI    PstI      
+PsuI      PteI      PvuI      PvuII     RruI      SacI      SacII     SalI      
+ScaI      SduI      SfcI      SfoI      Sfr274I   Sfr303I   SfuI      SgrBI     
+SlaI      SmaI      SmlI      SmoI      SnaBI     SpeI      SphI      SseBI     
+SspDI     SspI      SstI      StuI      StyI      TaqII     TatI      TspMI     
+Vha464I   VneI      VspI      XapI      XbaI      XceI      XhoI      XmaI      
+XmaJI     XmiI      ZraI      ZrmI      Zsp2I     AarI      AxyI      BbvCI     
+BlpI      Bpu10I    Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    BstPI     
+Bsu36I    CpoI      CsiI      CspI      Eco81I    Eco91I    EcoO109I  EcoO65I   
+KflI      LguI      MabI      PasI      PciSI     PfoI      PpuMI     Psp5II    
+PspEI     PspPPI    Rsr2I     RsrII     SapI      SexAI     AbsI      AscI      
+AsiSI     CciNI     FseI      FspAI     MauBI     MreI      MssI      NotI      
+PacI      PalAI     PmeI      PspXI     RgaI      RigI      SbfI      SdaI      
+SfaAI     SgfI      SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  
+SwaI      AdeI      AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     
+PsyI      Tth111I   AleI      Asp700I   BoxI      BsaBI     Bse8I     BseJI     
+BstPAI    MroXI     MslI      OliI      PdmI      PshAI     RseI      SmiMI     
+XmnI      AccB7I    AfiI      AhdI      BaeI      BglI      BmeRI     BplI      
+BsaXI     Bsc4I     BseLI     BslI      BstAPI    BstENI    BstMWI    DriI      
+Eam1105I  EcoNI     FalI      HpyF10VI  MwoI      PflMI     Van91I    XagI      
+AasI      BcgI      BstXI     CspCI     DrdI      DseDI     AloI      ArsI      
+BarI      PcsI      PsrI      SfiI      AjuI      XcmI      
+
+
+Proposed sequence enzymes: MluCI, FspEI, AbaSI, CviKI_1, HpyCH4V, Sse9I, TasI, CviJI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI FspEI
+ |                                                          
+ |  5 MaeIII
+ |  |                                                       
+ |  | 7 FokI AbaSI
+ |  | |                                                     
+ |  | |8 AbaSI
+ |  | ||                                                    
+ |  | ||9 AbaSI
+ |  | |||                                                   
+ |  | |||10 AbaSI
+ |  | ||||                                                  
+ |  | |||| 12 HpyCH4V
+ |  | |||| |                                                
+ |  | |||| |     18 AbaSI
+ |  | |||| |     |                                          
+ |  | |||| |     | 20 BseGI BtsCI BstF5I
+ |  | |||| |     | |                                        
+ |  | |||| |     | |21 AbaSI
+ |  | |||| |     | ||                                       
+ |  | |||| |     | ||  24 AbaSI
+ |  | |||| |     | ||  |                                    
+ATGGGTAACTGCAACGGGGCATCCAAG
+|||||||||||||||||||||||||||
+TACCCATTGACGTTGCCCCGTAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     
+FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     
+Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MluCI     MnlI      
+MseI      MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     
+SaqAI     Sau3AI    SetI      SgeI      Sse9I     SsiI      SspMI     TaiI      
+TaqI      TasI      Tru1I     Tru9I     XspI      AclWI     AgsI      AjnI      
+Alw26I    AlwI      ApeKI     AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      
+BccI      BceAI     BciT130I  BcnI      BcoDI     BisI      BlsI      Bme1390I  
+Bme18I    BmgT120I  BmrFI     BmsI      BpuMI     Bse1I     BseBI     BseMII    
+BseNI     BseXI     BslFI     BsmAI     BsmFI     BspCNI    BspPI     BsrI      
+Bst2UI    Bst4CI    BstDEI    BstMAI    BstNI     BstSCI    BstV1I    BtsIMutI  
+Cfr13I    CseI      DdeI      Eco47I    EcoRII    FaqI      FauI      Fnu4HI    
+Fsp4HI    GluI      HgaI      HinfI     HphI      Hpy188I   Hpy99I    HpyAV     
+HpyCH4III HpyF3I    LmnI      Lsp1109I  LweI      MboII     MlyI      MspR9I    
+MvaI      NciI      NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     
+PspGI     PspPI     SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      
+StyD4I    TaaI      TauI      TfiI      TscAI     TseFI     TseI      Tsp45I    
+TspDTI    TspGWI    TspRI     VpaK11BI  AanI      AatII     Acc16I    Acc36I    
+Acc65I    AccB1I    AccBSI    AccI      AccIII    AclI      AcoI      AcsI      
+AcuI      AcvI      AcyI      AfeI      AflII     AflIII    AgeI      AhlI      
+AjiI      Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     
+ApoI      AseI      AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    AvaI      
+AvrII     BaeGI     BalI      BamHI     BanI      BanII     BauI      BbrPI     
+BbsI      Bbv12I    BciVI     BclI      BcuI      BfmI      BfoI      BfrI      
+BfuAI     BfuI      BglII     BlnI      BmcAI     BmeT110I  BmgBI     BmiI      
+BmrI      BmtI      BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    
+BsaAI     BsaHI     BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     
+BseCI     BseDI     BseMI     BsePI     BseRI     BseSI     BseX3I    BseYI     
+BsgI      Bsh1285I  BshNI     BshTI     BshVI     BsiEI     BsiHKAI   BsiHKCI   
+BsiWI     BsmBI     BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp1286I  
+Bsp13I    Bsp1407I  Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspLI     
+BspMAI    BspMI     BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrBI     
+BsrDI     BsrFI     BsrGI     BssAI     BssECI    BssHII    BssNAI    BssNI     
+BssSI     BssT1I    Bst1107I  Bst2BI    Bst6I     BstACI    BstAFI    BstAUI    
+BstBAI    BstBI     BstC8I    BstDSI    BstH2I    BstMCI    BstNSI    BstSFI    
+BstSLI    BstSNI    BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    
+BsuI      BsuTUI    BtgI      BtgZI     BtrI      BtsI      BtuMI     BveI      
+Cac8I     CciI      Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     DinI      
+DraI      EaeI      EagI      Eam1104I  EarI      EciI      Ecl136II  EclXI     
+Eco105I   Eco130I   Eco147I   Eco24I    Eco31I    Eco32I    Eco47III  Eco52I    
+Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     EcoT14I   
+EcoT22I   EcoT38I   EgeI      EheI      ErhI      Esp3I     FauNDI    FbaI      
+FblI      FriOI     FspI      GsaI      GsuI      HaeII     Hin1I     HincII    
+HindII    HindIII   HpaI      Hpy166II  Hpy188III Hpy8I     Hsp92I    KasI      
+Kpn2I     KpnI      KroI      Ksp22I    KspAI     KspI      MbiI      MfeI      
+MflI      MhlI      MlsI      MluI      MluNI     Mly113I   MmeI      Mox20I    
+Mph1103I  MroI      MroNI     MscI      Msp20I    MspA1I    MspCI     MunI      
+Mva1269I  NaeI      NarI      NcoI      NdeI      NgoMIV    NheI      NlaIV     
+NmeAIII   NruI      NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    
+PagI      PauI      PceI      PciI      PctI      PdiI      Pfl23II   PinAI     
+Ple19I    PluTI     PmaCI     PmlI      Ppu21I    PscI      PshBI     PsiI      
+Psp124BI  Psp1406I  PspCI     PspFI     PspLI     PspN4I    PspOMI    PstI      
+PsuI      PteI      PvuI      PvuII     RruI      SacI      SacII     SalI      
+ScaI      SduI      SfcI      SfoI      Sfr274I   Sfr303I   SfuI      SgrBI     
+SlaI      SmaI      SmlI      SmoI      SnaBI     SpeI      SphI      SseBI     
+SspDI     SspI      SstI      StuI      StyI      TaqII     TatI      TspMI     
+Vha464I   VneI      VspI      XapI      XbaI      XceI      XhoI      XmaI      
+XmaJI     XmiI      ZraI      ZrmI      Zsp2I     AarI      AxyI      BbvCI     
+BlpI      Bpu10I    Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    BstPI     
+Bsu36I    CpoI      CsiI      CspI      Eco81I    Eco91I    EcoO109I  EcoO65I   
+KflI      LguI      MabI      PasI      PciSI     PfoI      PpuMI     Psp5II    
+PspEI     PspPPI    Rsr2I     RsrII     SapI      SexAI     AbsI      AscI      
+AsiSI     CciNI     FseI      FspAI     MauBI     MreI      MssI      NotI      
+PacI      PalAI     PmeI      PspXI     RgaI      RigI      SbfI      SdaI      
+SfaAI     SgfI      SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  
+SwaI      AdeI      AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     
+PsyI      Tth111I   AleI      Asp700I   BoxI      BsaBI     Bse8I     BseJI     
+BstPAI    MroXI     MslI      OliI      PdmI      PshAI     RseI      SmiMI     
+XmnI      AccB7I    AfiI      AhdI      BaeI      BglI      BmeRI     BplI      
+BsaXI     Bsc4I     BseLI     BslI      BstAPI    BstENI    BstMWI    DriI      
+Eam1105I  EcoNI     FalI      HpyF10VI  MwoI      PflMI     Van91I    XagI      
+AasI      BcgI      BstXI     CspCI     DrdI      DseDI     AloI      ArsI      
+BarI      PcsI      PsrI      SfiI      AjuI      XcmI      
+
+
+Proposed sequence enzymes: BseGI, AbaSI, FspEI, BtsCI, BstF5I, HpyCH4V, FokI, MaeIII
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI FspEI
+ |                                                          
+ |    7 MluCI TasI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    ||9 AbaSI CseI HgaI
+ |    |||                                                   
+ |    |||10 AbaSI
+ |    ||||                                                  
+ |    |||| 12 AbaSI HpyCH4V
+ |    |||| |                                                
+ |    |||| |     18 AbaSI
+ |    |||| |     |                                          
+ |    |||| |     | 20 Hsp92I BstACI BssNI AcyI Hin1I BsaHI
+ |    |||| |     | |                                        
+ |    |||| |     | |   24 AbaSI
+ |    |||| |     | |   |                                    
+ATGGGTAATTGCAACGGGGCGTCCAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCCCGCAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     
+FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     
+Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      MseI      
+MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     SaqAI     
+Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      Tru1I     
+Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      ApeKI     
+AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     BciT130I  
+BcnI      BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     
+BmsI      BpuMI     Bse1I     BseBI     BseGI     BseMII    BseNI     BseXI     
+BslFI     BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    
+BstDEI    BstF5I    BstMAI    BstNI     BstSCI    BstV1I    BtsCI     BtsIMutI  
+Cfr13I    DdeI      Eco47I    EcoRII    FaqI      FauI      Fnu4HI    FokI      
+Fsp4HI    GluI      HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III 
+HpyF3I    LmnI      Lsp1109I  LweI      MaeIII    MboII     MlyI      MspR9I    
+MvaI      NciI      NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     
+PspGI     PspPI     SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      
+StyD4I    TaaI      TauI      TfiI      TscAI     TseFI     TseI      Tsp45I    
+TspDTI    TspGWI    TspRI     VpaK11BI  AanI      AatII     Acc16I    Acc36I    
+Acc65I    AccB1I    AccBSI    AccI      AccIII    AclI      AcoI      AcsI      
+AcuI      AcvI      AfeI      AflII     AflIII    AgeI      AhlI      AjiI      
+Alw21I    Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      
+AseI      AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    AvaI      AvrII     
+BaeGI     BalI      BamHI     BanI      BanII     BauI      BbrPI     BbsI      
+Bbv12I    BciVI     BclI      BcuI      BfmI      BfoI      BfrI      BfuAI     
+BfuI      BglII     BlnI      BmcAI     BmeT110I  BmgBI     BmiI      BmrI      
+BmtI      BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     
+BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     BseDI     
+BseMI     BsePI     BseRI     BseSI     BseX3I    BseYI     BsgI      Bsh1285I  
+BshNI     BshTI     BshVI     BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     
+BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp1286I  Bsp13I    Bsp1407I  
+Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspLI     BspMAI    BspMI     
+BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrBI     BsrDI     BsrFI     
+BsrGI     BssAI     BssECI    BssHII    BssNAI    BssSI     BssT1I    Bst1107I  
+Bst2BI    Bst6I     BstAFI    BstAUI    BstBAI    BstBI     BstC8I    BstDSI    
+BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    BstV2I    BstX2I    
+BstYI     BstZ17I   BstZI     Bsu15I    BsuI      BsuTUI    BtgI      BtgZI     
+BtrI      BtsI      BtuMI     BveI      Cac8I     CciI      Cfr10I    Cfr42I    
+Cfr9I     ClaI      CspAI     DinI      DraI      EaeI      EagI      Eam1104I  
+EarI      EciI      Ecl136II  EclXI     Eco105I   Eco130I   Eco147I   Eco24I    
+Eco31I    Eco32I    Eco47III  Eco52I    Eco53kI   Eco57I    Eco72I    Eco88I    
+EcoICRI   EcoRI     EcoRV     EcoT14I   EcoT22I   EcoT38I   EgeI      EheI      
+ErhI      Esp3I     FauNDI    FbaI      FblI      FriOI     FspI      GsaI      
+GsuI      HaeII     HincII    HindII    HindIII   HpaI      Hpy166II  Hpy188III 
+Hpy8I     KasI      Kpn2I     KpnI      KroI      Ksp22I    KspAI     KspI      
+MbiI      MfeI      MflI      MhlI      MlsI      MluI      MluNI     Mly113I   
+MmeI      Mox20I    Mph1103I  MroI      MroNI     MscI      Msp20I    MspA1I    
+MspCI     MunI      Mva1269I  NaeI      NarI      NcoI      NdeI      NgoMIV    
+NheI      NlaIV     NmeAIII   NruI      NsbI      NsiI      NspI      NspV      
+PaeI      PaeR7I    PagI      PauI      PceI      PciI      PctI      PdiI      
+Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      Ppu21I    PscI      
+PshBI     PsiI      Psp124BI  Psp1406I  PspCI     PspFI     PspLI     PspN4I    
+PspOMI    PstI      PsuI      PteI      PvuI      PvuII     RruI      SacI      
+SacII     SalI      ScaI      SduI      SfcI      SfoI      Sfr274I   Sfr303I   
+SfuI      SgrBI     SlaI      SmaI      SmlI      SmoI      SnaBI     SpeI      
+SphI      SseBI     SspDI     SspI      SstI      StuI      StyI      TaqII     
+TatI      TspMI     Vha464I   VneI      VspI      XapI      XbaI      XceI      
+XhoI      XmaI      XmaJI     XmiI      ZraI      ZrmI      Zsp2I     AarI      
+AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  Bse21I    Bsp1720I  BspQI     
+BstEII    BstPI     Bsu36I    CpoI      CsiI      CspI      Eco81I    Eco91I    
+EcoO109I  EcoO65I   KflI      LguI      MabI      PasI      PciSI     PfoI      
+PpuMI     Psp5II    PspEI     PspPPI    Rsr2I     RsrII     SapI      SexAI     
+AbsI      AscI      AsiSI     CciNI     FseI      FspAI     MauBI     MreI      
+MssI      NotI      PacI      PalAI     PmeI      PspXI     RgaI      RigI      
+SbfI      SdaI      SfaAI     SgfI      SgrAI     SgrDI     SgsI      SmiI      
+SrfI      Sse8387I  SwaI      AdeI      AlwNI     CaiI      DraIII    MteI      
+PflFI     PstNI     PsyI      Tth111I   AleI      Asp700I   BoxI      BsaBI     
+Bse8I     BseJI     BstPAI    MroXI     MslI      OliI      PdmI      PshAI     
+RseI      SmiMI     XmnI      AccB7I    AfiI      AhdI      BaeI      BglI      
+BmeRI     BplI      BsaXI     Bsc4I     BseLI     BslI      BstAPI    BstENI    
+BstMWI    DriI      Eam1105I  EcoNI     FalI      HpyF10VI  MwoI      PflMI     
+Van91I    XagI      AasI      BcgI      BstXI     CspCI     DrdI      DseDI     
+AloI      ArsI      BarI      PcsI      PsrI      SfiI      AjuI      XcmI      
+
+
+
+Proposed sequence enzymes: BstACI, BssNI, MluCI, HpyCH4V, AbaSI, FspEI, AcyI, Hsp92I, CseI, Sse9I, BsaHI, Hin1I, TasI, HgaI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI FspEI
+ |                                                          
+ |    7 MluCI TasI FokI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    ||9 AbaSI
+ |    |||                                                   
+ |    |||10 AbaSI
+ |    ||||                                                  
+ |    ||||11 MaeIII
+ |    |||||                                                 
+ |    |||||      18 AbaSI
+ |    |||||      |                                          
+ |    |||||      | 20 BseGI BtsCI BstF5I
+ |    |||||      | |                                        
+ATGGGTAATTGTAACGGGGCATCCAAG
+|||||||||||||||||||||||||||
+TACCCATTAACATTGCCCCGTAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     
+FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpyCH4V   HpySE526I Hsp92II   
+HspAI     Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      
+MseI      MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     
+SaqAI     Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      
+Tru1I     Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      
+ApeKI     AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     
+BciT130I  BcnI      BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  
+BmrFI     BmsI      BpuMI     Bse1I     BseBI     BseMII    BseNI     BseXI     
+BslFI     BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    
+BstDEI    BstMAI    BstNI     BstSCI    BstV1I    BtsIMutI  Cfr13I    CseI      
+DdeI      Eco47I    EcoRII    FaqI      FauI      Fnu4HI    Fsp4HI    GluI      
+HgaI      HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III HpyF3I    
+LmnI      Lsp1109I  LweI      MboII     MlyI      MspR9I    MvaI      NciI      
+NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     PspPI     
+SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      StyD4I    TaaI      
+TauI      TfiI      TscAI     TseFI     TseI      Tsp45I    TspDTI    TspGWI    
+TspRI     VpaK11BI  AanI      AatII     Acc16I    Acc36I    Acc65I    AccB1I    
+AccBSI    AccI      AccIII    AclI      AcoI      AcsI      AcuI      AcvI      
+AcyI      AfeI      AflII     AflIII    AgeI      AhlI      AjiI      Alw21I    
+Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      AseI      
+AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     
+BalI      BamHI     BanI      BanII     BauI      BbrPI     BbsI      Bbv12I    
+BciVI     BclI      BcuI      BfmI      BfoI      BfrI      BfuAI     BfuI      
+BglII     BlnI      BmcAI     BmeT110I  BmgBI     BmiI      BmrI      BmtI      
+BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     BsaHI     
+BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     BseDI     
+BseMI     BsePI     BseRI     BseSI     BseX3I    BseYI     BsgI      Bsh1285I  
+BshNI     BshTI     BshVI     BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     
+BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp1286I  Bsp13I    Bsp1407I  
+Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspLI     BspMAI    BspMI     
+BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrBI     BsrDI     BsrFI     
+BsrGI     BssAI     BssECI    BssHII    BssNAI    BssNI     BssSI     BssT1I    
+Bst1107I  Bst2BI    Bst6I     BstACI    BstAFI    BstAUI    BstBAI    BstBI     
+BstC8I    BstDSI    BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    
+BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    BsuI      BsuTUI    
+BtgI      BtgZI     BtrI      BtsI      BtuMI     BveI      Cac8I     CciI      
+Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     DinI      DraI      EaeI      
+EagI      Eam1104I  EarI      EciI      Ecl136II  EclXI     Eco105I   Eco130I   
+Eco147I   Eco24I    Eco31I    Eco32I    Eco47III  Eco52I    Eco53kI   Eco57I    
+Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     EcoT14I   EcoT22I   EcoT38I   
+EgeI      EheI      ErhI      Esp3I     FauNDI    FbaI      FblI      FriOI     
+FspI      GsaI      GsuI      HaeII     Hin1I     HincII    HindII    HindIII   
+HpaI      Hpy166II  Hpy188III Hpy8I     Hsp92I    KasI      Kpn2I     KpnI      
+KroI      Ksp22I    KspAI     KspI      MbiI      MfeI      MflI      MhlI      
+MlsI      MluI      MluNI     Mly113I   MmeI      Mox20I    Mph1103I  MroI      
+MroNI     MscI      Msp20I    MspA1I    MspCI     MunI      Mva1269I  NaeI      
+NarI      NcoI      NdeI      NgoMIV    NheI      NlaIV     NmeAIII   NruI      
+NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    PagI      PauI      
+PceI      PciI      PctI      PdiI      Pfl23II   PinAI     Ple19I    PluTI     
+PmaCI     PmlI      Ppu21I    PscI      PshBI     PsiI      Psp124BI  Psp1406I  
+PspCI     PspFI     PspLI     PspN4I    PspOMI    PstI      PsuI      PteI      
+PvuI      PvuII     RruI      SacI      SacII     SalI      ScaI      SduI      
+SfcI      SfoI      Sfr274I   Sfr303I   SfuI      SgrBI     SlaI      SmaI      
+SmlI      SmoI      SnaBI     SpeI      SphI      SseBI     SspDI     SspI      
+SstI      StuI      StyI      TaqII     TatI      TspMI     Vha464I   VneI      
+VspI      XapI      XbaI      XceI      XhoI      XmaI      XmaJI     XmiI      
+ZraI      ZrmI      Zsp2I     AarI      AxyI      BbvCI     BlpI      Bpu10I    
+Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    CpoI      
+CsiI      CspI      Eco81I    Eco91I    EcoO109I  EcoO65I   KflI      LguI      
+MabI      PasI      PciSI     PfoI      PpuMI     Psp5II    PspEI     PspPPI    
+Rsr2I     RsrII     SapI      SexAI     AbsI      AscI      AsiSI     CciNI     
+FseI      FspAI     MauBI     MreI      MssI      NotI      PacI      PalAI     
+PmeI      PspXI     RgaI      RigI      SbfI      SdaI      SfaAI     SgfI      
+SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  SwaI      AdeI      
+AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     PsyI      Tth111I   
+AleI      Asp700I   BoxI      BsaBI     Bse8I     BseJI     BstPAI    MroXI     
+MslI      OliI      PdmI      PshAI     RseI      SmiMI     XmnI      AccB7I    
+AfiI      AhdI      BaeI      BglI      BmeRI     BplI      BsaXI     Bsc4I     
+BseLI     BslI      BstAPI    BstENI    BstMWI    DriI      Eam1105I  EcoNI     
+FalI      HpyF10VI  MwoI      PflMI     Van91I    XagI      AasI      BcgI      
+BstXI     CspCI     DrdI      DseDI     AloI      ArsI      BarI      PcsI      
+PsrI      SfiI      AjuI      XcmI      
+
+
+Proposed sequence enzymes: MluCI, AbaSI, FspEI, BseGI, BtsCI, BstF5I, FokI, TasI, Sse9I, MaeIII
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI
+ |                                                          
+ |    7 MluCI TasI FokI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    || 10 AbaSI
+ |    || |                                                  
+ |    || | 12 HpyCH4V
+ |    || | |                                                
+ |    || | |    17 LmnI
+ |    || | |    |                                           
+ |    || | |    |18 AbaSI
+ |    || | |    ||                                          
+ |    || | |    || 20 BseGI BtsCI BstF5I
+ |    || | |    || |                                        
+ |    || | |    || |   24 AbaSI
+ |    || | |    || |   |                                    
+ATGGGTAATTGCAACGGAGCATCCAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTGCCTCGTAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+FspEI     AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    
+BfaI      BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    
+BspANI    BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     
+BsuRI     CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      
+DpnII     FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     
+HhaI      Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   
+HspAI     Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      
+MseI      MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     
+SaqAI     Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      
+Tru1I     Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      
+ApeKI     AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     
+BciT130I  BcnI      BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  
+BmrFI     BmsI      BpuMI     Bse1I     BseBI     BseMII    BseNI     BseXI     
+BslFI     BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    
+BstDEI    BstMAI    BstNI     BstSCI    BstV1I    BtsIMutI  Cfr13I    CseI      
+DdeI      Eco47I    EcoRII    FaqI      FauI      Fnu4HI    Fsp4HI    GluI      
+HgaI      HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III HpyF3I    
+Lsp1109I  LweI      MaeIII    MboII     MlyI      MspR9I    MvaI      NciI      
+NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     PspPI     
+SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      StyD4I    TaaI      
+TauI      TfiI      TscAI     TseFI     TseI      Tsp45I    TspDTI    TspGWI    
+TspRI     VpaK11BI  AanI      AatII     Acc16I    Acc36I    Acc65I    AccB1I    
+AccBSI    AccI      AccIII    AclI      AcoI      AcsI      AcuI      AcvI      
+AcyI      AfeI      AflII     AflIII    AgeI      AhlI      AjiI      Alw21I    
+Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      AseI      
+AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     
+BalI      BamHI     BanI      BanII     BauI      BbrPI     BbsI      Bbv12I    
+BciVI     BclI      BcuI      BfmI      BfoI      BfrI      BfuAI     BfuI      
+BglII     BlnI      BmcAI     BmeT110I  BmgBI     BmiI      BmrI      BmtI      
+BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     BsaHI     
+BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     BseDI     
+BseMI     BsePI     BseRI     BseSI     BseX3I    BseYI     BsgI      Bsh1285I  
+BshNI     BshTI     BshVI     BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     
+BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp1286I  Bsp13I    Bsp1407I  
+Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspLI     BspMAI    BspMI     
+BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrBI     BsrDI     BsrFI     
+BsrGI     BssAI     BssECI    BssHII    BssNAI    BssNI     BssSI     BssT1I    
+Bst1107I  Bst2BI    Bst6I     BstACI    BstAFI    BstAUI    BstBAI    BstBI     
+BstC8I    BstDSI    BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    
+BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    BsuI      BsuTUI    
+BtgI      BtgZI     BtrI      BtsI      BtuMI     BveI      Cac8I     CciI      
+Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     DinI      DraI      EaeI      
+EagI      Eam1104I  EarI      EciI      Ecl136II  EclXI     Eco105I   Eco130I   
+Eco147I   Eco24I    Eco31I    Eco32I    Eco47III  Eco52I    Eco53kI   Eco57I    
+Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     EcoT14I   EcoT22I   EcoT38I   
+EgeI      EheI      ErhI      Esp3I     FauNDI    FbaI      FblI      FriOI     
+FspI      GsaI      GsuI      HaeII     Hin1I     HincII    HindII    HindIII   
+HpaI      Hpy166II  Hpy188III Hpy8I     Hsp92I    KasI      Kpn2I     KpnI      
+KroI      Ksp22I    KspAI     KspI      MbiI      MfeI      MflI      MhlI      
+MlsI      MluI      MluNI     Mly113I   MmeI      Mox20I    Mph1103I  MroI      
+MroNI     MscI      Msp20I    MspA1I    MspCI     MunI      Mva1269I  NaeI      
+NarI      NcoI      NdeI      NgoMIV    NheI      NlaIV     NmeAIII   NruI      
+NsbI      NsiI      NspI      NspV      PaeI      PaeR7I    PagI      PauI      
+PceI      PciI      PctI      PdiI      Pfl23II   PinAI     Ple19I    PluTI     
+PmaCI     PmlI      Ppu21I    PscI      PshBI     PsiI      Psp124BI  Psp1406I  
+PspCI     PspFI     PspLI     PspN4I    PspOMI    PstI      PsuI      PteI      
+PvuI      PvuII     RruI      SacI      SacII     SalI      ScaI      SduI      
+SfcI      SfoI      Sfr274I   Sfr303I   SfuI      SgrBI     SlaI      SmaI      
+SmlI      SmoI      SnaBI     SpeI      SphI      SseBI     SspDI     SspI      
+SstI      StuI      StyI      TaqII     TatI      TspMI     Vha464I   VneI      
+VspI      XapI      XbaI      XceI      XhoI      XmaI      XmaJI     XmiI      
+ZraI      ZrmI      Zsp2I     AarI      AxyI      BbvCI     BlpI      Bpu10I    
+Bpu1102I  Bse21I    Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    CpoI      
+CsiI      CspI      Eco81I    Eco91I    EcoO109I  EcoO65I   KflI      LguI      
+MabI      PasI      PciSI     PfoI      PpuMI     Psp5II    PspEI     PspPPI    
+Rsr2I     RsrII     SapI      SexAI     AbsI      AscI      AsiSI     CciNI     
+FseI      FspAI     MauBI     MreI      MssI      NotI      PacI      PalAI     
+PmeI      PspXI     RgaI      RigI      SbfI      SdaI      SfaAI     SgfI      
+SgrAI     SgrDI     SgsI      SmiI      SrfI      Sse8387I  SwaI      AdeI      
+AlwNI     CaiI      DraIII    MteI      PflFI     PstNI     PsyI      Tth111I   
+AleI      Asp700I   BoxI      BsaBI     Bse8I     BseJI     BstPAI    MroXI     
+MslI      OliI      PdmI      PshAI     RseI      SmiMI     XmnI      AccB7I    
+AfiI      AhdI      BaeI      BglI      BmeRI     BplI      BsaXI     Bsc4I     
+BseLI     BslI      BstAPI    BstENI    BstMWI    DriI      Eam1105I  EcoNI     
+FalI      HpyF10VI  MwoI      PflMI     Van91I    XagI      AasI      BcgI      
+BstXI     CspCI     DrdI      DseDI     AloI      ArsI      BarI      PcsI      
+PsrI      SfiI      AjuI      XcmI      
+
+
+Proposed sequence enzymes: MluCI, BstF5I, BseGI, AbaSI, BtsCI, LmnI, HpyCH4V, Sse9I, FokI, TasI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI MspJI FspEI
+ |                                                          
+ |    7 MluCI TasI FokI AbaSI Sse9I
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    ||9 AbaSI
+ |    |||                                                   
+ |    |||10 AbaSI
+ |    ||||                                                  
+ |    |||| 12 HpyCH4V
+ |    |||| |                                                
+ |    |||| |     18 AbaSI
+ |    |||| |     |                                          
+ |    |||| |     |19 BseMI BsrDI Bse3DI
+ |    |||| |     ||                                         
+ |    |||| |     ||20 BseGI BtsCI BstF5I
+ |    |||| |     |||                                        
+ |    |||| |     |||   24 AbaSI
+ |    |||| |     |||   |                                    
+ATGGGTAATTGCAATGGGGCATCCAAG
+|||||||||||||||||||||||||||
+TACCCATTAACGTTACCCCGTAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     
+FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     
+Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      MseI      
+MspI      MvnI      NdeII     NlaIII    RsaI      RsaNI     SaqAI     Sau3AI    
+SetI      SgeI      SsiI      SspMI     TaiI      TaqI      Tru1I     Tru9I     
+XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      ApeKI     AspS9I    
+AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     BciT130I  BcnI      
+BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     BmsI      
+BpuMI     Bse1I     BseBI     BseMII    BseNI     BseXI     BslFI     BsmAI     
+BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    BstDEI    BstMAI    
+BstNI     BstSCI    BstV1I    BtsIMutI  Cfr13I    CseI      DdeI      Eco47I    
+EcoRII    FaqI      FauI      Fnu4HI    Fsp4HI    GluI      HgaI      HinfI     
+HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III HpyF3I    LmnI      Lsp1109I  
+LweI      MaeIII    MboII     MlyI      MspR9I    MvaI      NciI      NmuCI     
+PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     PspPI     SatI      
+Sau96I    SchI      ScrFI     SfaNI     SinI      StyD4I    TaaI      TauI      
+TfiI      TscAI     TseFI     TseI      Tsp45I    TspDTI    TspGWI    TspRI     
+VpaK11BI  AanI      AatII     Acc16I    Acc36I    Acc65I    AccB1I    AccBSI    
+AccI      AccIII    AclI      AcoI      AcsI      AcuI      AcvI      AcyI      
+AfeI      AflII     AflIII    AgeI      AhlI      AjiI      Alw21I    Alw44I    
+Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      AseI      AsiGI     
+Asp718I   AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     BalI      
+BamHI     BanI      BanII     BauI      BbrPI     BbsI      Bbv12I    BciVI     
+BclI      BcuI      BfmI      BfoI      BfrI      BfuAI     BfuI      BglII     
+BlnI      BmcAI     BmeT110I  BmgBI     BmiI      BmrI      BmtI      BmuI      
+BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     BsaHI     BsaI      
+BsaJI     BsaWI     Bse118I   BseAI     BseCI     BseDI     BsePI     BseRI     
+BseSI     BseX3I    BseYI     BsgI      Bsh1285I  BshNI     BshTI     BshVI     
+BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     BsmI      Bso31I    BsoBI     
+Bsp119I   Bsp120I   Bsp1286I  Bsp13I    Bsp1407I  Bsp19I    Bsp68I    BspDI     
+BspEI     BspHI     BspLI     BspMAI    BspMI     BspOI     BspT104I  BspT107I  
+BspTI     BspTNI    BsrBI     BsrFI     BsrGI     BssAI     BssECI    BssHII    
+BssNAI    BssNI     BssSI     BssT1I    Bst1107I  Bst2BI    Bst6I     BstACI    
+BstAFI    BstAUI    BstBAI    BstBI     BstC8I    BstDSI    BstH2I    BstMCI    
+BstNSI    BstSFI    BstSLI    BstSNI    BstV2I    BstX2I    BstYI     BstZ17I   
+BstZI     Bsu15I    BsuI      BsuTUI    BtgI      BtgZI     BtrI      BtsI      
+BtuMI     BveI      Cac8I     CciI      Cfr10I    Cfr42I    Cfr9I     ClaI      
+CspAI     DinI      DraI      EaeI      EagI      Eam1104I  EarI      EciI      
+Ecl136II  EclXI     Eco105I   Eco130I   Eco147I   Eco24I    Eco31I    Eco32I    
+Eco47III  Eco52I    Eco53kI   Eco57I    Eco72I    Eco88I    EcoICRI   EcoRI     
+EcoRV     EcoT14I   EcoT22I   EcoT38I   EgeI      EheI      ErhI      Esp3I     
+FauNDI    FbaI      FblI      FriOI     FspI      GsaI      GsuI      HaeII     
+Hin1I     HincII    HindII    HindIII   HpaI      Hpy166II  Hpy188III Hpy8I     
+Hsp92I    KasI      Kpn2I     KpnI      KroI      Ksp22I    KspAI     KspI      
+MbiI      MfeI      MflI      MhlI      MlsI      MluI      MluNI     Mly113I   
+MmeI      Mox20I    Mph1103I  MroI      MroNI     MscI      Msp20I    MspA1I    
+MspCI     MunI      Mva1269I  NaeI      NarI      NcoI      NdeI      NgoMIV    
+NheI      NlaIV     NmeAIII   NruI      NsbI      NsiI      NspI      NspV      
+PaeI      PaeR7I    PagI      PauI      PceI      PciI      PctI      PdiI      
+Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      Ppu21I    PscI      
+PshBI     PsiI      Psp124BI  Psp1406I  PspCI     PspFI     PspLI     PspN4I    
+PspOMI    PstI      PsuI      PteI      PvuI      PvuII     RruI      SacI      
+SacII     SalI      ScaI      SduI      SfcI      SfoI      Sfr274I   Sfr303I   
+SfuI      SgrBI     SlaI      SmaI      SmlI      SmoI      SnaBI     SpeI      
+SphI      SseBI     SspDI     SspI      SstI      StuI      StyI      TaqII     
+TatI      TspMI     Vha464I   VneI      VspI      XapI      XbaI      XceI      
+XhoI      XmaI      XmaJI     XmiI      ZraI      ZrmI      Zsp2I     AarI      
+AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  Bse21I    Bsp1720I  BspQI     
+BstEII    BstPI     Bsu36I    CpoI      CsiI      CspI      Eco81I    Eco91I    
+EcoO109I  EcoO65I   KflI      LguI      MabI      PasI      PciSI     PfoI      
+PpuMI     Psp5II    PspEI     PspPPI    Rsr2I     RsrII     SapI      SexAI     
+AbsI      AscI      AsiSI     CciNI     FseI      FspAI     MauBI     MreI      
+MssI      NotI      PacI      PalAI     PmeI      PspXI     RgaI      RigI      
+SbfI      SdaI      SfaAI     SgfI      SgrAI     SgrDI     SgsI      SmiI      
+SrfI      Sse8387I  SwaI      AdeI      AlwNI     CaiI      DraIII    MteI      
+PflFI     PstNI     PsyI      Tth111I   AleI      Asp700I   BoxI      BsaBI     
+Bse8I     BseJI     BstPAI    MroXI     MslI      OliI      PdmI      PshAI     
+RseI      SmiMI     XmnI      AccB7I    AfiI      AhdI      BaeI      BglI      
+BmeRI     BplI      BsaXI     Bsc4I     BseLI     BslI      BstAPI    BstENI    
+BstMWI    DriI      Eam1105I  EcoNI     FalI      HpyF10VI  MwoI      PflMI     
+Van91I    XagI      AasI      BcgI      BstXI     CspCI     DrdI      DseDI     
+AloI      ArsI      BarI      PcsI      PsrI      SfiI      AjuI      XcmI      
+
+
+
+Proposed sequence enzymes: MspJI, Bse3DI, AbaSI, MluCI, FspEI, BstF5I, BseMI, BsrDI, BseGI, Sse9I, BtsCI, HpyCH4V, TasI, FokI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
+
+
+Original sequence enzymes: MluCI, TasI, FspEI, AbaSI, BseGI, Sse9I, BtsCI, FokI, BstF5I, HpyCH4V
+
+ 2 AbaSI FspEI
+ |                                                          
+ |    7 MluCI TasI FokI AbaSI Sse9I MfeI MunI
+ |    |                                                     
+ |    |8 AbaSI
+ |    ||                                                    
+ |    ||9 AbaSI
+ |    |||                                                   
+ |    |||10 AbaSI
+ |    ||||                                                  
+ |    |||| 12 HpyCH4V
+ |    |||| |                                                
+ |    |||| |     18 AbaSI AbaSI
+ |    |||| |     |                                          
+ |    |||| |     | 20 BseGI BtsCI BstF5I
+ |    |||| |     | |                                        
+ |    |||| |     | |   24 AbaSI
+ |    |||| |     | |   |                                    
+ATGGGCAATTGCAACGGGGCATCCAAG
+|||||||||||||||||||||||||||
+TACCCGTTAACGTTGCCCCGTAGGTTC
+1                           27
+
+
+   Enzymes which do not cut the sequence.
+
+AccII     AciI      AfaI      AluBI     AluI      AoxI      AspLEI    BfaI      
+BfuCI     Bsh1236I  BshFI     BsiSI     BsnI      Bsp143I   BspACI    BspANI    
+BspFNI    BssMI     BstFNI    BstHHI    BstKTI    BstMBI    BstUI     BsuRI     
+CfoI      Csp6I     CviAII    CviJI     CviKI_1   CviQI     DpnI      DpnII     
+FaeI      FaiI      FatI      FspBI     GlaI      HaeIII    HapII     HhaI      
+Hin1II    Hin6I     HinP1I    HpaII     HpyCH4IV  HpySE526I Hsp92II   HspAI     
+Kzo9I     LpnPI     MaeI      MaeII     MalI      MboI      MnlI      MseI      
+MspI      MspJI     MvnI      NdeII     NlaIII    RsaI      RsaNI     SaqAI     
+Sau3AI    SetI      SgeI      SsiI      SspMI     TaiI      TaqI      Tru1I     
+Tru9I     XspI      AclWI     AgsI      AjnI      Alw26I    AlwI      ApeKI     
+AspS9I    AsuC2I    AsuHPI    AvaII     BbvI      BccI      BceAI     BciT130I  
+BcnI      BcoDI     BisI      BlsI      Bme1390I  Bme18I    BmgT120I  BmrFI     
+BmsI      BpuMI     Bse1I     BseBI     BseMII    BseNI     BseXI     BslFI     
+BsmAI     BsmFI     BspCNI    BspPI     BsrI      Bst2UI    Bst4CI    BstDEI    
+BstMAI    BstNI     BstSCI    BstV1I    BtsIMutI  Cfr13I    CseI      DdeI      
+Eco47I    EcoRII    FaqI      FauI      Fnu4HI    Fsp4HI    GluI      HgaI      
+HinfI     HphI      Hpy188I   Hpy99I    HpyAV     HpyCH4III HpyF3I    LmnI      
+Lsp1109I  LweI      MaeIII    MboII     MlyI      MspR9I    MvaI      NciI      
+NmuCI     PfeI      PkrI      PleI      PpsI      Psp6I     PspGI     PspPI     
+SatI      Sau96I    SchI      ScrFI     SfaNI     SinI      StyD4I    TaaI      
+TauI      TfiI      TscAI     TseFI     TseI      Tsp45I    TspDTI    TspGWI    
+TspRI     VpaK11BI  AanI      AatII     Acc16I    Acc36I    Acc65I    AccB1I    
+AccBSI    AccI      AccIII    AclI      AcoI      AcsI      AcuI      AcvI      
+AcyI      AfeI      AflII     AflIII    AgeI      AhlI      AjiI      Alw21I    
+Alw44I    Ama87I    Aor13HI   Aor51HI   ApaI      ApaLI     ApoI      AseI      
+AsiGI     Asp718I   AspA2I    AsuII     AsuNHI    AvaI      AvrII     BaeGI     
+BalI      BamHI     BanI      BanII     BauI      BbrPI     BbsI      Bbv12I    
+BciVI     BclI      BcuI      BfmI      BfoI      BfrI      BfuAI     BfuI      
+BglII     BlnI      BmcAI     BmeT110I  BmgBI     BmiI      BmrI      BmtI      
+BmuI      BpiI      BpmI      Bpu14I    BpuEI     Bsa29I    BsaAI     BsaHI     
+BsaI      BsaJI     BsaWI     Bse118I   Bse3DI    BseAI     BseCI     BseDI     
+BseMI     BsePI     BseRI     BseSI     BseX3I    BseYI     BsgI      Bsh1285I  
+BshNI     BshTI     BshVI     BsiEI     BsiHKAI   BsiHKCI   BsiWI     BsmBI     
+BsmI      Bso31I    BsoBI     Bsp119I   Bsp120I   Bsp1286I  Bsp13I    Bsp1407I  
+Bsp19I    Bsp68I    BspDI     BspEI     BspHI     BspLI     BspMAI    BspMI     
+BspOI     BspT104I  BspT107I  BspTI     BspTNI    BsrBI     BsrDI     BsrFI     
+BsrGI     BssAI     BssECI    BssHII    BssNAI    BssNI     BssSI     BssT1I    
+Bst1107I  Bst2BI    Bst6I     BstACI    BstAFI    BstAUI    BstBAI    BstBI     
+BstC8I    BstDSI    BstH2I    BstMCI    BstNSI    BstSFI    BstSLI    BstSNI    
+BstV2I    BstX2I    BstYI     BstZ17I   BstZI     Bsu15I    BsuI      BsuTUI    
+BtgI      BtgZI     BtrI      BtsI      BtuMI     BveI      Cac8I     CciI      
+Cfr10I    Cfr42I    Cfr9I     ClaI      CspAI     DinI      DraI      EaeI      
+EagI      Eam1104I  EarI      EciI      Ecl136II  EclXI     Eco105I   Eco130I   
+Eco147I   Eco24I    Eco31I    Eco32I    Eco47III  Eco52I    Eco53kI   Eco57I    
+Eco72I    Eco88I    EcoICRI   EcoRI     EcoRV     EcoT14I   EcoT22I   EcoT38I   
+EgeI      EheI      ErhI      Esp3I     FauNDI    FbaI      FblI      FriOI     
+FspI      GsaI      GsuI      HaeII     Hin1I     HincII    HindII    HindIII   
+HpaI      Hpy166II  Hpy188III Hpy8I     Hsp92I    KasI      Kpn2I     KpnI      
+KroI      Ksp22I    KspAI     KspI      MbiI      MflI      MhlI      MlsI      
+MluI      MluNI     Mly113I   MmeI      Mox20I    Mph1103I  MroI      MroNI     
+MscI      Msp20I    MspA1I    MspCI     Mva1269I  NaeI      NarI      NcoI      
+NdeI      NgoMIV    NheI      NlaIV     NmeAIII   NruI      NsbI      NsiI      
+NspI      NspV      PaeI      PaeR7I    PagI      PauI      PceI      PciI      
+PctI      PdiI      Pfl23II   PinAI     Ple19I    PluTI     PmaCI     PmlI      
+Ppu21I    PscI      PshBI     PsiI      Psp124BI  Psp1406I  PspCI     PspFI     
+PspLI     PspN4I    PspOMI    PstI      PsuI      PteI      PvuI      PvuII     
+RruI      SacI      SacII     SalI      ScaI      SduI      SfcI      SfoI      
+Sfr274I   Sfr303I   SfuI      SgrBI     SlaI      SmaI      SmlI      SmoI      
+SnaBI     SpeI      SphI      SseBI     SspDI     SspI      SstI      StuI      
+StyI      TaqII     TatI      TspMI     Vha464I   VneI      VspI      XapI      
+XbaI      XceI      XhoI      XmaI      XmaJI     XmiI      ZraI      ZrmI      
+Zsp2I     AarI      AxyI      BbvCI     BlpI      Bpu10I    Bpu1102I  Bse21I    
+Bsp1720I  BspQI     BstEII    BstPI     Bsu36I    CpoI      CsiI      CspI      
+Eco81I    Eco91I    EcoO109I  EcoO65I   KflI      LguI      MabI      PasI      
+PciSI     PfoI      PpuMI     Psp5II    PspEI     PspPPI    Rsr2I     RsrII     
+SapI      SexAI     AbsI      AscI      AsiSI     CciNI     FseI      FspAI     
+MauBI     MreI      MssI      NotI      PacI      PalAI     PmeI      PspXI     
+RgaI      RigI      SbfI      SdaI      SfaAI     SgfI      SgrAI     SgrDI     
+SgsI      SmiI      SrfI      Sse8387I  SwaI      AdeI      AlwNI     CaiI      
+DraIII    MteI      PflFI     PstNI     PsyI      Tth111I   AleI      Asp700I   
+BoxI      BsaBI     Bse8I     BseJI     BstPAI    MroXI     MslI      OliI      
+PdmI      PshAI     RseI      SmiMI     XmnI      AccB7I    AfiI      AhdI      
+BaeI      BglI      BmeRI     BplI      BsaXI     Bsc4I     BseLI     BslI      
+BstAPI    BstENI    BstMWI    DriI      Eam1105I  EcoNI     FalI      HpyF10VI  
+MwoI      PflMI     Van91I    XagI      AasI      BcgI      BstXI     CspCI     
+DrdI      DseDI     AloI      ArsI      BarI      PcsI      PsrI      SfiI      
+AjuI      XcmI      
+
+
+Proposed sequence enzymes: MluCI, AbaSI, FspEI, BstF5I, HpyCH4V, MfeI, BseGI, BtsCI, Sse9I, TasI, MunI, FokI
+Enzimes only in original sequence: 
+Enzimes only in proposed sequence: 
+=========================
+
+
+
