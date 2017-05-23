@@ -16,7 +16,4 @@ Proposed sequence enzymes: {{item.pames}}
 Enzimes only in original sequence: {{item.o}}
 Enzimes only in proposed sequence: {{item.p}}
 =========================
-
-
-
 {% endfor %}
