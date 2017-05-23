@@ -110,8 +110,7 @@ for bakpep in bakpeps:
                         enz_tmp.difference(enz)))[1:-1]
             bakpeps_out.append(tmp_d)
 with open('mutation.tpl') as fh:
-    tpl = fh.read()
-    template = Template(tpl)
+    template = Template(fh.read())
     render = template.render(dna_input=args.input,
                              ori_pep=ori_pep,
                              ori_map=ori_map,
