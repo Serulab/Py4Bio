@@ -1,18 +1,18 @@
 import sqlite3
 from Bio import SeqIO
 
-seq_file = open('../../samples/TAIR10_seq_20101214_updated.txt')
-cds_file = open('../../samples/TAIR10_cds_20101214_updated.txt')
+SEQ_FILE = open('../../samples/TAIR10_seq_20101214_updated')
+CDS_FILE = open('../../samples/TAIR10_cds_20101214_updated')
 AT_DB_FILE = 'AT.db'
 
 at_d = {}
 # Get all sequences from TAIR sequences file.
-for record in SeqIO.parse(seq_file, 'fasta'):
+for record in SeqIO.parse(SEQ_FILE, 'fasta'):
     sid = record.id
     seq = str(record.seq)
     at_d[sid] = [seq]
 # Get all sequences from TAIR CDS file.
-for record in SeqIO.parse(cds_file, 'fasta'):
+for record in SeqIO.parse(CDS_FILE, 'fasta'):
     sid = record.id
     seq = str(record.seq)
     at_d[sid].append(seq)
