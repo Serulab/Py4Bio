@@ -2,14 +2,18 @@
 
 import argparse
 import os
+import sqlite3
+
 from Bio import SeqIO, SeqRecord, Seq
-from Bio.Blast import NCBIStandalone
+from Bio.Blast.Applications import NcbiblastnCommandline as blastn
+from Bio import AlignIO
 from Bio.Blast import NCBIXML
 from Bio.Align.Applications import ClustalwCommandline
 
 AT_DB_FILE = 'AT.db'
 BLAST_EXE = '~/opt/ncbi-blast-2.6.0+/bin/blastn'
 BLAST_DB = '~/opt/ncbi-blast-2.6.0+/db/TAIR10'
+CLUSTALW_EXE = '../../clustalw2'
 
 def allgaps(seq):
     """Return a list with tuples containing all gap positions
@@ -36,18 +40,18 @@ def iss(record):
 
     usersid = record.id
     userseq = record.seq
-    result, err = NCBIStandalone.blastall(blast_exe, "blastn",
-                  blast_db, f_name, expectation='1e-10',
-                  descriptions='1', alignments='1')
+    blastn_cline = blastn(cmd=BLAST_EXE, query=args.input_file, db=BLAST_DB,
+                        evalue='1e-10', outfmt=5, num_descriptions='1', num_alignments='1', out='outfile.xml')
+    blastn_cline()
+    #result, err = NCBIStandalone.blastall(blast_exe, "blastn",
+    #              blast_db, f_name, expectation='1e-10',
+    #              descriptions='1', alignments='1')
 
-    of = open('outfile.xml','w')
-    of.write(result.read())
-    result.close()
-    of.close()
-    b_record = NCBIXML.parse(open('outfile.xml')).next()
+    #with open('outfile.xml','w') as of:
+    #    of.write(result.read())
+    b_record = NCBIXML.read(open('outfile.xml'))
     title = b_record.alignments[0].title
     sid = title[title.index(' ')+1:title.index(' |')]
-
     # Polarity information of returned sequence.
     # 1 = normal, -1 = reverse.
     frame = b_record.alignments[0].hsps[0].frame[1]
@@ -56,13 +60,9 @@ def iss(record):
     ###NO!!
     conn = sqlite3.connect(AT_DB_FILE)
     c = conn.cursor()
-    print(c.execute('SELECT * from seqs WHERE ID=?', sid))
-    xxx
-
-    result = x.readline().split('|')
-    cds = result[1]
-    seq = result[2][:-1]
-
+    res_cur = c.execute('SELECT CDS, FULL_SEQ from seq WHERE ID=?',
+                        (sid,))
+    cds, full_seq = res_cur.fetchone()
     if cds=='':
         print('There is no matching CDS')
         exit()
@@ -71,31 +71,33 @@ def iss(record):
     if frame==1:
         seqCDS = SeqRecord.SeqRecord(Seq.Seq(cds),id=sid+'-CDS'
                                  ,name="",description="")
-        fullseq = SeqRecord.SeqRecord(Seq.Seq(seq),id=sid+'-SEQ'
+        fullseq = SeqRecord.SeqRecord(Seq.Seq(full_seq), id=sid+'-SEQ'
                                  ,name="",description="")
     else:
         seqCDS = SeqRecord.SeqRecord(
             Seq.Seq(cds).reverse_complement(),id=sid+'-CDS',
             name="",description="")
         fullseq = SeqRecord.SeqRecord(
-            Seq.Seq(seq).reverse_complement(),id=sid+'-SEQ',
+            Seq.Seq(full_seq).reverse_complement(),id=sid+'-SEQ',
             name="",description="")
 
     # Create a tuple with the user sequence and both AT sequences.
     allseqs = (record,seqCDS,fullseq)
 
-    trifh = open('foralig.txt','w')
-    # Write the file with the three sequences.
-    SeqIO.write(allseqs,trifh,"fasta")
-    trifh.close()
+    with open('foralig.txt','w') as trifh:
+        # Write the file with the three sequences.
+        SeqIO.write(allseqs, trifh, 'fasta')
 
     # Do the alignment:
-    cline = MultipleAlignCL('foralig.txt')
-    cline.set_output(usersid+".aln")
-    alignment = Clustalw.do_alignment(cline)
+    outfilename = usersid + '.aln'
+    cline = ClustalwCommandline(CLUSTALW_EXE,
+                                infile = 'foralig.txt',
+                                outfile = outfilename,
+                                )
+    cline()
 
     # Walk over all aligned sequences and look for query sequence
-    for seq in alignment.get_all_seqs():
+    for seq in AlignIO.read(outfilename, 'clustal'):
         if usersid in seq.id:
             seqstr = seq.seq.tostring()
             gaps = allgaps(seqstr.strip('-'))
@@ -123,7 +125,7 @@ args = parser.parse_args()
 
 ## DEBUG: f_name='/mnt/hda2/bio/t3.txt'
 seqhandle = open(args.input_file)
-records = SeqIO.parse(seqhandle, "fasta")
+records = SeqIO.parse(seqhandle, 'fasta')
 
 for record in records:
     iss(record)
