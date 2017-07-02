@@ -24,7 +24,8 @@ with gzip.open(FILE_NAME, "rt", newline="") as f_unzip:
             at_d[row[0]] = (int(chromosome), left, right)
         else:
             at_d[row[0]] = (int(row[5]), int(row[7]), int(row[8]))
-# Make a list with dictionaries to be stored as documents in MongoDB
+# Make a list with dictionaries to be stored as documents in
+# MongoDB
 markers = []
 for marker in at_d:
     markers.append({'marker_id': marker, 'chromosome':

@@ -1,0 +1,97 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+secu3                ------------------------------------------------------------
+AT1G14990.1-CDS      ------------------------------------------------------------
+AT1G14990.1-SEQ      GCTTTGCTATGCTATATGTTTATTACATTGTGCCTCTGCGGGAATTACATGCTCTTAATT
+                                                                                 
+
+secu3                ------------------------------------------------------------
+AT1G14990.1-CDS      ------------------------------------------------------------
+AT1G14990.1-SEQ      TTCAGAGTACAAATCTGAATAATCCATGTAAGCCAATGGTACGGTTCCGGACTTATACAA
+                                                                                 
+
+secu3                ------------------------------------------------------------
+AT1G14990.1-CDS      ------------------------------------------------------------
+AT1G14990.1-SEQ      ACACCATACAAATGTTCCAAGATACCAGGATTCGAATTTGCTATAACAAGATTAGGCACA
+                                                                                 
+
+secu3                ------------------------------------------------------------
+AT1G14990.1-CDS      ------------------------------------------------------------
+AT1G14990.1-SEQ      AAGCTGAAACAAAGAGAGCTGGCGCCACTAGCCACTTCCATCGAGTTGGCCTTGAGATAG
+                                                                                 
+
+secu3                ------------------------------------------------------------
+AT1G14990.1-CDS      ------------------------------------------------------------
+AT1G14990.1-SEQ      AAGGTGAGCCATGTATTGCTGCATTCACAATAAAATGAGCTCAATTCTTGGTTCTAACCC
+                                                                                 
+
+secu3                ------------------------------------------------------------
+AT1G14990.1-CDS      ------------------------------------------------------------
+AT1G14990.1-SEQ      CACATGATTCGACAAACATTTCTATCAATGGCACCACAAAGTCAGTACCATCAAGATTCT
+                                                                                 
+
+secu3                -----------------------------CTAGCCACTTCCAACGAGTTGGCCTTGAGAT
+AT1G14990.1-CDS      -----------------------------CTAGCCACTTCCATCGAGTTGGCCTTGAGAT
+AT1G14990.1-SEQ      AGACTTATGGAAACTGACCTTTACAACACTAAAATATCCGCACCACAGAGATTATCATAA
+                                                    *   *    ** *     *    * * * 
+
+secu3                AGAAGGTGAGCCATGTATTGGGAGTGGTAAACGTATGGAGATTTTCCCTGGCGATCAAAA
+AT1G14990.1-CDS      AGAAGGTGAGCCATGTATTGGGAGTGGTAAACGTATGGAGATTTTCCCTGGCGATCAAAA
+AT1G14990.1-SEQ      AGAGATTGAAG-AAACTTACGGAGTGGTAAACGTATGGAGATTTTCCCTGGCGATCAAAA
+                     ***   ***   *    *  ****************************************
+
+secu3                TGCTTAGCCATTATGCAGAATTCAACAGGACCGGAATCTTCAGATTCATAGCCTTTCCCA
+AT1G14990.1-CDS      TGCTTAGCCATTATGCAGAATTCAACAGGACCCCAATCTTCAGATTCATAGCAATTCCCA
+AT1G14990.1-SEQ      TGCTTAGCCATTATGCAGAATTCAACAGGACCCCAATCTTCAGATTCATAGCAATTCCCA
+                     ********************************  ******************  ******
+
+secu3                AGCGCCGCTTTGTACAGCTT----------------------------------------
+AT1G14990.1-CDS      AGCGCCGCTTTGTACAGCTT----------------------------------------
+AT1G14990.1-SEQ      AGCGCCGCTTTGTACAGCTTTACTCCAATAAACCCCAATCATCAGTTCCACACAGAACTA
+                     ********************                                        
+
+secu3                -------------------------------------------------------AGCTG
+AT1G14990.1-CDS      -------------------------------------------------------AGCTG
+AT1G14990.1-SEQ      ATCAACTATATAAACTGTAAACGACAACTCAAAATTGTCATCAAGGACAAACCTTAGCTG
+                                                                            *****
+
+secu3                TGTCGGTCAAAAGTTCGGTGCCAGCAGTCGAAGATGCATAAAACTGATCTCCCCTGGAAT
+AT1G14990.1-CDS      TGTCGGTCAAAAGTTCGGTGCCAGCAGGGTAAGATGCATAAAACTGATCTCCCCTGGAAT
+AT1G14990.1-SEQ      TGTCGGTCAAAAGTTCGGTGCCAGCAGGGTAAGATGCATAAAACTGATCTCCCCTGGAAT
+                     ***************************   ******************************
+
+secu3                ATCCTGCTCTTGTT----------------------------------------------
+AT1G14990.1-CDS      ATCCTGCTCTTGTT----------------------------------------------
+AT1G14990.1-SEQ      ATCCTGCTCTTGTTCTACACAACATTCGAATCAGTAACATTAAATCAAATTAAACCTGAA
+                     **************                                              
+
+secu3                ------------------------------------------------------------
+AT1G14990.1-CDS      ------------------------------------------------------------
+AT1G14990.1-SEQ      GCAGAAACCAAGAGAAGAACCCAGAAATTGAAATCATCTGCGAATTCCGATATTGAAAAG
+                                                                                 
+
+secu3                -----------------------------------------------GTGTTGTTTGTAT
+AT1G14990.1-CDS      -----------------------------------------------GTGTTGTTTGTAT
+AT1G14990.1-SEQ      AAAGAACAACCAAAAGAAGCAAACTGAGATCGGACGAAAGACATTACGTGTTGTTTGTAT
+                                                                    *************
+
+secu3                AGAAGAATGTGAGGGCAGCAGTGAAGCAGTAGAATCCGGCGTAAGAGACAGCCCGTCGTA
+AT1G14990.1-CDS      AGAAGAATGTGAGGGCAGCAGTGAAGCAGTAGAATCCGGCGTAAGAGACAGCCCGTCGTA
+AT1G14990.1-SEQ      AGAAGAATGTGAGGGCAGCAGTGAAGCAGTAGAATCCGGCGTAAGAGACAGCCCGTCGTA
+                     ************************************************************
+
+secu3                GCTTCTGGATAATTATAACCTCTGAGCGGTCATCCAAGATCATCAT--------------
+AT1G14990.1-CDS      GCTTCTGGATCTTTATAACCTCTGAGCAAACATCCAAGATCATCAT--------------
+AT1G14990.1-SEQ      GCTTCTGGATCTTTATAACCTCTGAGCAAACATCCAAGATCATCATCTTCACACCTTCGG
+                     **********  ***************   ****************              
+
+secu3                ------------------------------------------------------------
+AT1G14990.1-CDS      ------------------------------------------------------------
+AT1G14990.1-SEQ      AAACTCTTTCAGGTATTATATCGAACACCTTGTGATCACTTTACCAAACAGAGATGACGA
+                                                                                 
+
+secu3                ------------------
+AT1G14990.1-CDS      ------------------
+AT1G14990.1-SEQ      GTAGAAGAAGCATCTCAC
+                                       

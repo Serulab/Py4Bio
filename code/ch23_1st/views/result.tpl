@@ -8,7 +8,7 @@
   <div class="container">
       % if bad_option:
       <h1>Bad Request</h1>
-      Use the options provided in the form. Error in {{bad_option}}
+      Use the options provided in the form. Error in {{bad_opt}}
       % elif not bad_option:
       {{!result_output}}
       % end

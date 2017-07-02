@@ -1,0 +1,50 @@
+CLUSTAL 2.1 multiple sequence alignment
+
+
+AGA92859.1      -------------------QVQLQQSDAELVKPGASVKISCKVSGYTFTDHTIHWMKQRP
+AAH03888.1      MEWSWVFLFFLSVTTGVHSQVQLQQSDAELVKPGASVKISCKVSGYTFTDHTIHWVKQRP
+AML31452.1      -------------------EVQLQESDAELVKPGASVKISCKVSGYTFTDHSIHWMKQRP
+BAE71953.1      -------------------QVHLQQSDAEMVKPGASVKISCQVSGYTFTDHTIHWMKQRP
+                                   :*:**:****:***********:*********:***:****
+
+AGA92859.1      EQGLEWIGYIYPRDGSTKYNEKFKGKATLTADKSSSTAYMQLNSLTSEDSAVYFCARRGS
+AAH03888.1      EQGLEWIGYIYPRDGSTKYNEKFKGKATLTADKSSSTAYMQLNSLTSEDSAVCFCSRGGS
+AML31452.1      EQGLEWIGYIYPRDGTTKYNEKFKGKATLTADKSSSTAYMQLNSLTSEDSAVYFCSRR-S
+BAE71953.1      EQGLEWIGYIWPGNGNTKYNEIFKGKATLTADKFSSAVYMQLNSLTSEDSAVYFCSRE-N
+                **********:* :*.***** *********** **:.************** **:*  .
+
+AGA92859.1      SYYAM-------------------------------------------------------
+AAH03888.1      IYYGYGLYYFDYWGQGTTITVSSAKTTAPSVYPLAPVCGDTTGSSVTLGCLVKGYFPEPV
+AML31452.1      GYFDY-------WGQGTTLTVSS-------------------------------------
+BAE71953.1      DYYNMD-----YWGQGTSVTVSS-------------------------------------
+                 *:                                                         
+
+AGA92859.1      ------------------------------------------------------------
+AAH03888.1      TLTWNSGSLSSGVHTFPAVLQSDLYTLSSSVTVTSSTWPSQSITCNVAHPASSTKVDKKI
+AML31452.1      ------------------------------------------------------------
+BAE71953.1      ------------------------------------------------------------
+                                                                            
+
+AGA92859.1      ------------------------------------------------------------
+AAH03888.1      EPRGPTIKPCPPCKCPAPNLLGGPSVFIFPPKIKDVLMISLSPMVTCVVVDVSEDDPDVQ
+AML31452.1      ------------------------------------------------------------
+BAE71953.1      ------------------------------------------------------------
+                                                                            
+
+AGA92859.1      ------------------------------------------------------------
+AAH03888.1      ISWFVNNVEVLTAQTQTHREDYNSTLRVVSALPIQHQDWMSGKEFKCKVNNKALPAPIER
+AML31452.1      ------------------------------------------------------------
+BAE71953.1      ------------------------------------------------------------
+                                                                            
+
+AGA92859.1      ------------------------------------------------------------
+AAH03888.1      TISKPKGSVRAPQVYVLPPPEEEMTKKQVTLTCMVTDFMPEDIYVEWTNNGKTELNYKNT
+AML31452.1      ------------------------------------------------------------
+BAE71953.1      ------------------------------------------------------------
+                                                                            
+
+AGA92859.1      -----------------------------------------------------
+AAH03888.1      EPVLDSDGSYFMYSKLRVEKKNWVERNSYSCSVVHEGLHNHHTTKSFSRTPGK
+AML31452.1      -----------------------------------------------------
+BAE71953.1      -----------------------------------------------------
+                                                                     

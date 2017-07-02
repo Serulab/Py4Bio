@@ -52,7 +52,7 @@ def result():
         result_out = '<pre>{}</pre>'.format(result_out)
     # Remove the output file
     os.remove(fo_name)
-    return {'bad_option':badreq, 'result_output':result_out}
+    return {'bad_opt':badreq, 'result_output':result_out}
 
 @route('/css/<filename>')
 def css_static(filename):
