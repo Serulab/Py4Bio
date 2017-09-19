@@ -16,7 +16,7 @@ parser = ArgumentParser(usage=usage)
 parser.add_argument('input', help='Input sequence')
 parser.add_argument('-o', '--output', help=
                     'name of the output file',
-                    default='output.html')
+                    default='output.txt')
 parser.add_argument('-m', '--mutations', type=int,
                   help='number of allowed mutations',
                   dest='n_mut', default=1)
