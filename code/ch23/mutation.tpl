@@ -13,7 +13,7 @@ Original sequence enzymes: {{oname}}
 {{item.graph}}
 
 Proposed sequence enzymes: {{item.pames}}
-Enzimes only in original sequence: {{item.o}}
-Enzimes only in proposed sequence: {{item.p}}
+Enzimes only in original sequence: {{item.ori_seq}}
+Enzimes only in proposed sequence: {{item.proposed_seq}}
 =========================
 {% endfor %}
