@@ -116,5 +116,5 @@ with open('mutation.tpl') as fh:
                              ori_map=ori_map,
                              oname=oname,
                              bakpeps_out=bakpeps_out)
-with open('restriction_output.txt', 'w') as file_out:
+with open(args.output, 'w') as file_out:
     file_out.write(render)
