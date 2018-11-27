@@ -4,4 +4,4 @@ with open('../../sampoles/B1.csv') as fh:
     for n, line in enumerate(fh):
         data = line.split(',')
         total_len += int(data[1])
-print(total_len/n)
+print(total_len/(n+1))
