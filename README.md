@@ -12,4 +12,4 @@ Directories:
 * notebooks: Jupyter notebook, one per chapter. To run these notebooks, you need [Jupyter](https://jupyter.org/).
 * samples: Supplementary data needed for some of the programs.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Serulab/Py4Bio/master?filepath=https%3A%2F%2Fgithub.com%2FSerulab%2FPy4Bio%2Fblob%2Fmaster%2Fnotebooks%2FChapter%25201%2520-%2520Introduction.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Serulab/Py4Bio/master?filepath=notebooks%2F)
