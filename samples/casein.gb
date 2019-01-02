@@ -1,0 +1,631 @@
+LOCUS       FJ429671                 250 bp    DNA     linear   MAM 24-JUL-2016
+DEFINITION  Bison bison alpha s1 casein (CSN1S1) gene, exon 12 and partial cds.
+ACCESSION   FJ429671
+VERSION     FJ429671.1
+KEYWORDS    .
+SOURCE      Bison bison (American bison)
+  ORGANISM  Bison bison
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bison.
+REFERENCE   1  (bases 1 to 250)
+  AUTHORS   Luhken,G., Caroli,A., Ibeagha-Awemu,E.M. and Erhardt,G.
+  TITLE     Characterization and genetic analysis of bovine alpha S1-casein I
+            variant
+  JOURNAL   Anim. Genet. 40 (4), 479-485 (2009)
+   PUBMED   19392822
+REFERENCE   2  (bases 1 to 250)
+  AUTHORS   Luehken,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2008) Animal Breeding and Genetics, Justus-Liebig
+            University of Giessen, Ludwigstrasse 21B, Giessen 35390, Germany
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Bison bison"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9901"
+                     /chromosome="6"
+     gene            <1..>250
+                     /gene="CSN1S1"
+     intron          <1..81
+                     /gene="CSN1S1"
+                     /number=11
+     mRNA            <82..>123
+                     /gene="CSN1S1"
+                     /product="alpha s1 casein"
+     CDS             <82..>123
+                     /gene="CSN1S1"
+                     /codon_start=1
+                     /product="alpha s1 casein"
+                     /protein_id="ACR24127.1"
+                     /translation="EQLLRLKKYKVPQL"
+     exon            82..123
+                     /gene="CSN1S1"
+                     /number=12
+     intron          124..>250
+                     /gene="CSN1S1"
+                     /number=12
+ORIGIN      
+        1 tttctcatta tttactcctg ggaaagggat actatgatag acggtatcca cgaaattgac
+       61 aatatttttt cttttgaata ggaacagctt ctcagactga aaaaatacaa agtaccccag
+      121 ctggtaatat tttattataa taatacaaaa ttaagtctac agaattaaaa taattaaatg
+      181 aaatttactt tgactaaatt ctacatcaaa tcatgttaga gcctcccaaa tgattcgtta
+      241 tactctggaa
+//
+
+LOCUS       EU221552                 411 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 1_4 alpha S1 casein gene, partial cds.
+ACCESSION   EU221552
+VERSION     EU221552.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 411)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 411)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..411
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="1_4"
+     mRNA            <1..>411
+                     /product="alpha S1 casein"
+     CDS             <1..411
+                     /codon_start=1
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98937.1"
+                     /translation="SISSSEEIVPNSVEQKHIQKEDVPSERYLGYLEQLLRLKKYKVP
+                     QLEIVPNSAEERLHSMKEGIHAQQKEPMIGVNQELAYFYPELFRQFYQLDAYPSGAWY
+                     YVPLGTQYTDAPSFSDIPNPIGSENSEKTTMPLW"
+ORIGIN      
+        1 agcatttcgt caagtgagga aattgttccc aatagtgttg agcagaagca cattcaaaag
+       61 gaagatgtgc cctctgagcg ttacctgggt tatctggaac agcttctcag actgaaaaaa
+      121 tacaaagtac cccagctgga aattgttccc aatagtgctg aggaacgact tcacagtatg
+      181 aaagagggaa tccatgccca acagaaagaa cctatgatag gagtgaatca ggaactggcc
+      241 tacttctacc ctgagctttt cagacaattc taccagctgg atgcctatcc atctggtgcc
+      301 tggtattacg ttccactagg cacacaatac actgatgccc catcattctc tgacatccct
+      361 aatcccattg gctctgagaa cagtgaaaag actactatgc cactgtggtg a
+//
+
+LOCUS       EU221557                 428 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 10_129 alpha S1 casein gene, partial cds.
+ACCESSION   EU221557
+VERSION     EU221557.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 428)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 428)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..428
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="10_129"
+     mRNA            <1..>428
+                     /product="alpha S1 casein"
+     CDS             <1..428
+                     /codon_start=3
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98942.1"
+                     /translation="QMEAESISSSEEIVPNSVEQKHIQKEDVPSERYLGYLEQLLRLK
+                     KYKVPQLEIVPNSAEERLHSMKEGIHAQQKEPMIGVNQELAYFYPELFRQFYQLDAYP
+                     SGAWYYVPLGTQYTDAPSFSDIPNPIGSENSEKTTMPLW"
+ORIGIN      
+        1 agcaaatgga agctgaaagc atttcgtcaa gtgaggaaat tgttcccaat agtgttgagc
+       61 agaagcacat tcaaaaggaa gatgtgccct ctgagcgtta cctgggttat ctggaacagc
+      121 ttctcagact gaaaaaatac aaagtacccc agctggaaat tgttcccaat agtgctgagg
+      181 aacgacttca cagtatgaaa gagggaatcc atgcccaaca gaaagaacct atgataggag
+      241 tgaatcagga actggcctac ttctaccctg agcttttcag acaattctac cagctggatg
+      301 cctatccatc tggtgcctgg tattacgttc cactaggcac acaatacact gatgccccat
+      361 cattctctga catccctaat cccattggct ctgagaacag tgaaaagact actatgccac
+      421 tgtggtga
+//
+
+LOCUS       EU221562                 250 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 2_40 alpha S1 casein gene, partial cds.
+ACCESSION   EU221562
+VERSION     EU221562.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 250)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 250)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="2_40"
+     mRNA            <1..>250
+                     /product="alpha S1 casein"
+     CDS             <1..250
+                     /codon_start=2
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98947.1"
+                     /translation="ERLHSMKEGIHAQQKEPMIGVNQELAYFYPELFRQFYQLDAYPS
+                     GAWYYVPLGTQYTDAPSFSDIPNPIGSENSEKTTMPLW"
+ORIGIN      
+        1 ggaacgactt cacagtatga aagagggaat ccatgcccaa cagaaagaac ctatgatagg
+       61 agtgaatcag gaactggcct acttctaccc tgagcttttc agacaattct accagctgga
+      121 tgcctatcca tctggtgcct ggtattacgt tccactaggc acacaataca ctgatgcccc
+      181 atcattctct gacatcccta atcccattgg ctctgagaac agtgaaaaga ctactatgcc
+      241 actgtggtga
+//
+
+LOCUS       EU221565                 468 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 15_8 alpha S1 casein gene, partial cds.
+ACCESSION   EU221565
+VERSION     EU221565.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 468)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 468)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..468
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="15_8"
+     mRNA            <1..>468
+                     /product="alpha S1 casein"
+     CDS             <1..468
+                     /codon_start=1
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98950.1"
+                     /translation="GSESTEDQAMEDIKQMEAESISSSEEIVPNSVEQKHIQKEDVPS
+                     ERYLGYLEQLLRLKKYKVPQLEIVPNSAEERLHSMKEGIHAQQKEPMIGVNQELAYFY
+                     PELFRQFYQLDAYPSGAWYYVPLGTQYTDAPSFSDIPNPIGSENSEKTTMPLW"
+ORIGIN      
+        1 gggagtgaat caactgagga tcaagccatg gaagatatta agcaaatgga agctgaaagc
+       61 atttcgtcaa gtgaggaaat tgttcccaat agtgttgagc agaagcacat tcaaaaggaa
+      121 gatgtgccct ctgagcgtta cctgggttat ctggaacagc ttctcagact gaaaaaatac
+      181 aaagtacccc agctggaaat tgttcccaat agtgctgagg aacgacttca cagtatgaaa
+      241 gagggaatcc atgcccaaca gaaagaacct atgataggag tgaatcagga actggcctac
+      301 ttctaccctg agcttttcag acaattctac cagctggatg cctatccatc tggtgcctgg
+      361 tattacgttc cactaggcac acaatacact gatgccccat cattctctga catccctaat
+      421 cccattggct ctgagaacag tgaaaagact actatgccac tgtggtga
+//
+
+LOCUS       EU221567                 419 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 20_2 alpha S1 casein gene, partial cds.
+ACCESSION   EU221567
+VERSION     EU221567.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 419)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 419)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..419
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="20_2"
+     mRNA            <1..>419
+                     /product="alpha S1 casein"
+     CDS             <1..419
+                     /codon_start=3
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98952.1"
+                     /translation="AESISSSEEXVPNSVEQKHIQKEDVPSERYLGYLEQLLRLKKYK
+                     VPQLEIVPNSAEERLHSMKEGIHAQQKEPMIGVNQELAYFYPELFXQFYQLDAYPSGA
+                     WYYVPLGTQYTDAPSFSDIPNPIGSXNSEKTTMPLW"
+ORIGIN      
+        1 aagctgaaag catttcgtca agtgaggaan ttgttcccaa tagtgttgag cagaagcaca
+       61 ttcaaaagga agatgtgccc tctgagcgtt acctgggtta tctggaacag cttctcagac
+      121 tgaaaaaata caaagtaccc cagctggaaa ttgttcccaa tagtgctgag gaacgacttc
+      181 acagtatgaa agagggaatc catgcccaac agaaagaacc tatgatagga gtgaatcagg
+      241 aactggccta cttctaccct gagcttttca racaattcta ccagctggat gcctatccat
+      301 ctggtgcctg gtattacgtt ccactaggca cacaatacac tgatgcccca tcattctctg
+      361 acatccctaa tcccattggc tctganaaca gtgaaaagac tactatgcca ctgtggtga
+//
+
+LOCUS       EU221568                 392 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 15_30 alpha S1 casein gene, partial cds.
+ACCESSION   EU221568
+VERSION     EU221568.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 392)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 392)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..392
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="15_30"
+     mRNA            <1..>392
+                     /product="alpha S1 casein"
+     CDS             <1..392
+                     /codon_start=3
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98953.1"
+                     /translation="IVPNSVEQKHIQKEDVPSERYLGYLEQLLRLKKYKVPQLEIVPN
+                     SAEERLHSMKEGIHAQQKEPMIGVNQELAYFYPELFXQFYQPDAYPSGAWYYVPLGTQ
+                     YTDAPSFSDIPNPIGSENSEKTTMPLW"
+ORIGIN      
+        1 gaattgttcc caatagtgtt gagcagaagc acattcaaaa ggaagatgtg ccctctgagc
+       61 gttacctggg ttatctggaa cagcttctca gactgaaaaa atacaaagta ccccagctgg
+      121 aaattgttcc caatagtgct gaggaacgac ttcacagtat gaaagaggga atccatgccc
+      181 aacagaaaga acctatgata ggagtgaatc aggaactggc ctacttctac cctgagcttt
+      241 tcaracaatt ctaccagccg gatgcctatc catctggtgc ctggtattac gttccactag
+      301 gcacacaata cactgatgcc ccatcattct ctgacatccc taatcccatt ggctctgaga
+      361 acagtgaaaa gactactatg ccactgtggt ga
+//
+
+LOCUS       EU221569                 383 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 15_14 alpha S1 casein gene, partial cds.
+ACCESSION   EU221569
+VERSION     EU221569.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 383)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 383)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..383
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="15_14"
+     mRNA            <1..>383
+                     /product="alpha S1 casein"
+     CDS             <1..383
+                     /codon_start=3
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98954.1"
+                     /translation="NSVEQKHIQKEDVPSERYLGYLEQLLRLKKYKVPQLEIVPNSAE
+                     ERLHSMKEGIHAQQKEPMIGVNQELAYFYPELFRQFYQLDAYPSGAWYYVPLGTQYTD
+                     APSFSDIPNPIGSENSEKTTMPLW"
+ORIGIN      
+        1 ccaatagtgt tgagcagaag cacattcaaa aggaagatgt gccctctgag cgttacctgg
+       61 gttatctgga acagcttctc agactgaaaa aatacaaagt accccagctg gaaattgttc
+      121 ccaatagtgc tgaggaacga cttcacagta tgaaagaggg aatccatgcc caacagaaag
+      181 aacctatgat aggagtgaat caggaactgg cctacttcta ccctgagctt ttcagacaat
+      241 tctaccagct ggatgcctat ccatctggtg cctggtatta cgttccacta ggcacacaat
+      301 acactgatgc cccatcattc tctgacatcc ctaatcccat tggctctgag aacagtgaaa
+      361 agactactat gccactgtgg tga
+//
+
+LOCUS       EU221570                 338 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 18_3 alpha S1 casein gene, partial cds.
+ACCESSION   EU221570
+VERSION     EU221570.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 338)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 338)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..338
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="18_3"
+     mRNA            <1..>338
+                     /product="alpha S1 casein"
+     CDS             <1..338
+                     /codon_start=3
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98955.1"
+                     /translation="ERYLGYLEQLLRLKKYKVPQLEIVPNSAEERLHSMKEGIHAQQK
+                     EPMIGVNQELAYFYPELFRQFYQLDAYPSGAWYYVPLGTQYTDAPSFSDIPNPIGSEN
+                     SEKTTMPLW"
+ORIGIN      
+        1 ctgagcgtta cctgggttat ctggaacagc ttctcagatt gaaaaaatac aaagtacccc
+       61 agctggaaat tgttcccaat agtgctgagg aacgacttca cagtatgaaa gagggaatcc
+      121 atgcccaaca gaaagaacct atgataggag tgaatcagga actggcctac ttctaccctg
+      181 agcttttcag acaattctac cagctggatg cctatccatc tggtgcctgg tattacgttc
+      241 cactaggcac acaatacact gatgccccat cattctctga catccctaat cccattggct
+      301 ctgagaacag tgaaaagact actatgccac tgtggtga
+//
+
+LOCUS       EU221571                 309 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 24_1 alpha S1 casein gene, partial cds.
+ACCESSION   EU221571
+VERSION     EU221571.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 309)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 309)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..309
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="24_1"
+     mRNA            <1..>309
+                     /product="alpha S1 casein"
+     CDS             <1..309
+                     /codon_start=1
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98956.1"
+                     /translation="LLRLKKYKVPQLEIVPNSAEERLHSMKEGIHAQQKEPMIGVNQE
+                     LAYFYPELFXQFYQLDAYPSGAWYYVPLGTQYTDAPSFSDIPNPIGSENSEKTTMPLW
+                     "
+ORIGIN      
+        1 cttctcagac tgaaaaaata caaagtaccc cagctggaaa ttgttcccaa tagtgctgag
+       61 gaacgacttc acagtatgaa agagggaatc catgcccaac agaaagaacc tatgatagga
+      121 gtgaatcagg aactggccta cttctaccct gagcttttca racaattcta ccagctggat
+      181 gcctatccat ctggtgcctg gtattacgtt ccactaggca cacaatacac tgatgcccca
+      241 tcattctctg acatccctaa tcccattggc tctgagaaca gtgaaaagac tactatgcca
+      301 ctgtggtga
+//
+
+LOCUS       EU221572                 313 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 15_33 alpha S1 casein gene, partial cds.
+ACCESSION   EU221572
+VERSION     EU221572.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 313)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 313)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..313
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="15_33"
+     mRNA            <1..>313
+                     /product="alpha S1 casein"
+     CDS             <1..313
+                     /codon_start=2
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98957.1"
+                     /translation="QLLRLKKYKVPQLEIVPNSAEERLHSMKEGIHAQQKEPMIGVNQ
+                     ELAYFYPELFRQFYQLDAYPSGAWYYVPLGTQYTDAPSFSDIPNPIGSENSEKTTMPL
+                     W"
+ORIGIN      
+        1 acagcttctc agactgaaaa aatacaaagt accccagctg gaaattgttc ccaatagtgc
+       61 tgaggaacga cttcacagta tgaaagaggg aatccatgcc caacagaaag aacctatgat
+      121 aggagtgaat caggaactgg cctacttcta ccctgagctt ttcagacaat tctaccagct
+      181 ggatgcctat ccatctggtg cctggtatta cgttccacta ggcacacaat acactgatgc
+      241 cccatcattc tctgacatcc ctaatcccat tggctctgag aacagtgaaa agactactat
+      301 gccactgtgg tga
+//
+
+LOCUS       EU221573                 290 bp    DNA     linear   MAM 03-JUN-2009
+DEFINITION  Bos taurus clone 17_11 alpha S1 casein gene, partial cds.
+ACCESSION   EU221573
+VERSION     EU221573.1
+KEYWORDS    .
+SOURCE      Bos taurus (cattle)
+  ORGANISM  Bos taurus
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Laurasiatheria; Cetartiodactyla; Ruminantia;
+            Pecora; Bovidae; Bovinae; Bos.
+REFERENCE   1  (bases 1 to 290)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Cloning, expression, and mapping of allergenic determinants of
+            alphaS1-casein, a major cow's milk allergen
+  JOURNAL   J. Immunol. 182 (11), 7019-7029 (2009)
+   PUBMED   19454699
+REFERENCE   2  (bases 1 to 290)
+  AUTHORS   Schulmeister,U., Hochwallner,H., Swoboda,I., Focke-Tejkl,M.,
+            Geller,B., Nystrand,M., Harlin,A., Thalhamer,J., Scheiblhofer,S.,
+            Keller,W., Niggemann,B., Quirce,S., Ebner,C., Mari,A., Pauli,G.,
+            Herz,U., Valenta,R. and Spitzauer,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-OCT-2007) Medical University of Vienna, Institue of
+            Medical and Chemical Laboratory Diagnostics, Waehringer Guertel
+            18-20, Vienna A1090, Austria
+FEATURES             Location/Qualifiers
+     source          1..290
+                     /organism="Bos taurus"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9913"
+                     /clone="17_11"
+     mRNA            <1..>290
+                     /product="alpha S1 casein"
+     CDS             <1..290
+                     /codon_start=3
+                     /product="alpha S1 casein"
+                     /protein_id="ABW98958.1"
+                     /translation="KVPQLEIVPNSAEERLHSMKEGIHAQQKEPMIGVNQELAYFYPE
+                     LFXQFYQLDAYPSGAWYYVPLGTQYTDAPSFSDIPNPIGSENSEKTTMPLW"
+ORIGIN      
+        1 acaaagtacc ccagctggaa attgttccca atagtgctga ggaacgactt cacagtatga
+       61 aagagggaat ccatgcccaa cagaaagaac ctatgatagg agtgaatcag gaactggcct
+      121 acttctaccc tgagcttttc anacaattct accagctgga tgcctatcca tctggtgcct
+      181 ggtattacgt tccactaggc acacaataca ctgatgcccc atcattctct gacatcccta
+      241 atcccattgg ctctgagaac agtgaaaaga ctactatgcc actgtggtga
+//
+
