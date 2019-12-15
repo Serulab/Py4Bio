@@ -5,4 +5,3 @@ aa_charge = {'C':-.045,'D':-.999,'E':-.998,'H':.091,
 for aa in prot_seq:
     charge += aa_charge.get('aa', 0)
 print(charge)
-nd{verbatim}
