@@ -8,6 +8,6 @@ def is_prime(n):
 def all_primes(n):
    primes = []
    for number in range(1,n):
-       if isprime(number):
+       if is_prime(number):
            primes.append(number)
-   return p
+   return primes
