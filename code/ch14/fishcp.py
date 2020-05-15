@@ -5,12 +5,12 @@ from pandas import read_csv
 
 df = read_csv('../samples/fishdata.csv')
 df['feeds_and_species'] = df['feeds'] + ', ' + df['species']
-
 all_markers = [mt for mt in marker_types]
 SPECIES = list(set(df['species']))
 MARKERS = all_markers[:len(SPECIES)]
 feeds = list(set(df['feeds']))
 ttl = 'Metabolic variations based on 1H NMR profiling of fishes'
+
 p = figure(plot_height=600, plot_width=700, title = ttl)
 p.xaxis.axis_label = 'Principal Component 1: 35.8%'
 p.yaxis.axis_label = 'Principal Component 2: 15.1%'
