@@ -34,12 +34,12 @@ def result():
     result_out = ''
     # Make a random filename for user entered data
     fi_name = mkstemp('.txt','userdata_')[1]
-    with open(fi_name,'wb') as fi_fh:
+    with open(fi_name,'w') as fi_fh:
         fi_fh.write(sequence)
     fo_name = mkstemp('.txt','outfile_')[1]
     with open('muscle3_error.log','w') as erfh:
-        cmd = ['muscle3.8.31_i86linux64', '-in', fi_name,
-               '-out', fo_name, '-quiet', '-maxiters',
+        cmd = [os.getcwd() + '/muscle3.8.31_i86linux64', '-in',
+               fi_name, '-out', fo_name, '-quiet', '-maxiters',
                iterations, '-{}'.format(output_type),
                '-{}'.format(order)]
         p = subprocess.Popen(cmd, stderr=erfh)
