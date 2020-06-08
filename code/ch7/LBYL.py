@@ -6,7 +6,7 @@ if os.path.exists(iname):
        line = fh.readline()
    if "\t" in line:
        value = line.split('\t')[0]
-       if os.access(oname, os.W_OK) == 0:
+       if os.access(oname, os.W_OK):
            with open(oname, 'w') as fw:
                if value.isdigit():
                    fw.write(str(int(value)*.2))
